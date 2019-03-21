@@ -1,5 +1,5 @@
 {
-  "name": "finnai",
+  "name": "",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,8 +12,8 @@
     "type": "",
     "url": ""
   },
-  "author": "David Lacho",
-  "license": "ISC",
+  "author": "",
+  "license": "",
   "bugs": {
     "url": ""
   },
