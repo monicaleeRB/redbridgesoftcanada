@@ -1,27 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "012116d820fd71b5ed30",
-    "url": "/static/css/main.5c563178.chunk.css"
+    "revision": "167391e70fff0b2cce3b",
+    "url": "/static/css/main.ecbb4ca3.chunk.css"
   },
   {
-    "revision": "012116d820fd71b5ed30",
-    "url": "/static/js/main.012116d8.chunk.js"
+    "revision": "167391e70fff0b2cce3b",
+    "url": "/static/js/main.167391e7.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "19785b68e25eea2e0253",
-    "url": "/static/js/2.19785b68.chunk.js"
-  },
-  {
-    "revision": "76ff47ae5c64ccda5af18326bb272058",
-    "url": "/static/media/joe-gardner-2.76ff47ae.jpg"
-  },
-  {
-    "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
-    "url": "/static/media/nucleo-icons.5c78b4cf.woff2"
+    "revision": "3780a42a997e948ec2e0",
+    "url": "/static/js/2.3780a42a.chunk.js"
   },
   {
     "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
@@ -30,6 +22,10 @@ self.__precacheManifest = [
   {
     "revision": "6836b93bf1af0b571928d98458a68445",
     "url": "/static/media/nucleo-icons.6836b93b.woff"
+  },
+  {
+    "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
+    "url": "/static/media/nucleo-icons.5c78b4cf.woff2"
   },
   {
     "revision": "48ac036da7c7923266266f63746fc5f1",
@@ -80,35 +76,19 @@ self.__precacheManifest = [
     "url": "/static/media/MapSingapore.32f3f276.png"
   },
   {
-    "revision": "facbbdb787d77f975904ba9fa99b15c6",
-    "url": "/static/media/daniel-olahh.facbbdb7.jpg"
+    "revision": "4fb1dd52bd92ebe581474e00fbd365c1",
+    "url": "/static/media/AboutBanner.4fb1dd52.png"
   },
   {
-    "revision": "ae11d928aae96245020bb59a1910f758",
-    "url": "/static/media/clem-onojeghuo-3.ae11d928.jpg"
+    "revision": "f716468e9fb44d4e749da58f57a07d87",
+    "url": "/static/media/QuoteBanner.f716468e.png"
   },
   {
-    "revision": "2051e0e847124c536df9c01a3f672032",
-    "url": "/static/media/erik-lucatero-2.2051e0e8.jpg"
+    "revision": "84aed754347083250d0792fa97442af1",
+    "url": "/static/media/LogisticsChart.84aed754.png"
   },
   {
-    "revision": "f26c34bb88eb83d5aae99c7dbf3ddd48",
-    "url": "/static/media/fabio-mangione.f26c34bb.jpg"
-  },
-  {
-    "revision": "bb4b9ac9fd07e48f86c719495b65341c",
-    "url": "/static/media/clem-onojeghuo-2.bb4b9ac9.jpg"
-  },
-  {
-    "revision": "bfc688ca490f0079051aea5b8ec75cbe",
-    "url": "/static/media/ayo-ogunseinde-2.bfc688ca.jpg"
-  },
-  {
-    "revision": "be9fa468a029a195601370492c15519d",
-    "url": "/static/media/login-image.be9fa468.jpg"
-  },
-  {
-    "revision": "da8a2e0793d770752acf02499324e8ed",
+    "revision": "59c4c51f1f7e8ed852b1509610d16539",
     "url": "/index.html"
   }
 ];

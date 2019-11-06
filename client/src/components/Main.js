@@ -17,18 +17,22 @@
 
 */
 import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
-import "./assets/css/bootstrap.min.css";
-import "./assets/scss/paper-kit.scss";
-import "./assets/demo/demo.css";
+import LandingPage from "../views/LandingPage";
+import AboutPage from "../views/AboutPage";
+import BusinessPage from "../views/BusinessPage";
 
-import App from "./App";
+function Main() {
+  return (
+    <>
+        <Switch>
+            <Route exact path="/" render={()=> <LandingPage/>}/>
+            <Route path="/about" render={()=> <AboutPage/>}/>
+            <Route path="/business" render={()=> <BusinessPage/>}/>
+        </Switch>
+    </>
+  );
+}
 
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById("root")
-);
+export default Main;

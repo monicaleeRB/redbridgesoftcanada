@@ -17,13 +17,14 @@
 
 */
 import React from "react";
+import { Link } from "react-router-dom";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 // reactstrap components
 import {
   Container, 
   Collapse,
-  NavbarBrand, Navbar, NavItem, NavLink, Nav,
+  NavbarBrand, Navbar, NavLink, NavItem, Nav,
 } from "reactstrap";
 
 function IndexNavbar() {
@@ -62,9 +63,9 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/index"
+            href="/"
             target="_blank"
-            title="Coded by Creative Tim"
+            title="Redbridge Soft"
           >
             Redbridge Soft
           </NavbarBrand>
@@ -87,52 +88,28 @@ function IndexNavbar() {
         >
           <Nav navbar>
             <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href=""
-                target="_blank"
-                title="About Us"
-              >
-                About Us
+              <NavLink>
+                <Link to="/about">About Us</Link>
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href=""
-                target="_blank"
-                title="What We Do"
-              >
-                What We Do
+              <NavLink>
+                <Link to="/business">What We Do</Link>
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href=""
-                target="_blank"
-                title="Contact Us"
-              >
-                Contact Us
+              <NavLink>
+                <Link to="/contact">Contact Us</Link>
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
-                data-placement="bottom"
-                href=""
-                target="_blank"
-                title="News"
-              >
-                News
+              <NavLink>
+                <Link to="/news">News</Link>
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink
-                href=""
-                target="_blank"
-                title="Games"
-              >
-                Games
+              <NavLink>
+                <Link to="/games">Games</Link>
               </NavLink>
             </NavItem>
           </Nav>

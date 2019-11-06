@@ -16,19 +16,28 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
+
+/*eslint-disable*/
 import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
 
-import "./assets/css/bootstrap.min.css";
-import "./assets/scss/paper-kit.scss";
-import "./assets/demo/demo.css";
+// reactstrap components
+import { Container } from "reactstrap";
 
-import App from "./App";
+// core components
+function OrganizationBanner() {
+  return (
+    <>
+        <div className="section">
+            <Container>
+                <div className="section-bar"></div>
+                <div className="typography-line">
+                    <h2 className="strong-title">Organization</h2>
+                    <img className="poster" src={require("../../assets/img/LogisticsChart.png")}/>
+                </div>
+            </Container>
+        </div>
+    </>
+  );
+}
 
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById("root")
-);
+export default OrganizationBanner;

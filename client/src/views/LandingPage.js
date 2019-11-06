@@ -18,17 +18,14 @@
 */
 import React from "react";
 
-import IndexNavbar from "../components/Navbars/IndexNavbar";
 import IndexHeader from "../components/Headers/IndexHeader";
-import DemoFooter from "../components/Footers/DemoFooter";
-
 import OverviewBanner from "../components/Features/OverviewBanner";
 import RedbridgeCreativeGroup from "../components/Features/RedbridgeCreativeGroup";
 import CentralCollegeBanner from "../components/Features/CentralCollegeBanner";
 import LatestNewsBanner from "../components/Features/LatestNewsBanner";
 import LocationBanner from "../components/Features/LocationBanner";
 
-function Index() {
+function LandingPage() {
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("index");
@@ -38,7 +35,6 @@ function Index() {
   });
   return (
     <>
-      <IndexNavbar />
       <IndexHeader />
       <div className="main">
         <OverviewBanner />
@@ -46,11 +42,9 @@ function Index() {
         <CentralCollegeBanner />
         <LatestNewsBanner />
         <LocationBanner />
-
-        <DemoFooter />
       </div>
     </>
   );
 }
 
-export default Index;
+export default LandingPage;

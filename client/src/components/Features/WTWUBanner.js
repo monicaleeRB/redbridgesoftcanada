@@ -16,19 +16,28 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
+
+/*eslint-disable*/
 import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
 
-import "./assets/css/bootstrap.min.css";
-import "./assets/scss/paper-kit.scss";
-import "./assets/demo/demo.css";
+// reactstrap components
+import { Container } from "reactstrap";
 
-import App from "./App";
+// core components
+function WTWUBanner() {
+  return (
+    <>
+        <div className="section background-lightBlack">
+            <Container>
+                <div className="typography-line">
+                    <h3 className="strong-title font-white">Want to work with us?</h3>
+                    <br />
+                    <p className="font-white">Email: rb.redbridge@gmail.com</p>
+                </div>
+            </Container>
+        </div>
+    </>
+  );
+}
 
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById("root")
-);
+export default WTWUBanner;

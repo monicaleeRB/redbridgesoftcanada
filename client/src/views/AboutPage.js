@@ -17,18 +17,25 @@
 
 */
 import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
 
-import "./assets/css/bootstrap.min.css";
-import "./assets/scss/paper-kit.scss";
-import "./assets/demo/demo.css";
+import AboutHeader from "../components/Headers/AboutPageHeader";
+import VisionBanner from "../components/Features/VisionBanner";
+import QuoteBanner from "../components/Features/QuoteBanner";
+import OrganizationBanner from "../components/Features/OrganizationBanner";
+import CompanyInfoBanner from "../components/Features/CompanyInfoBanner";
+import WTWUBanner from "../components/Features/WTWUBanner";
 
-import App from "./App";
+function AboutPage() { 
+  return (
+    <>
+      <AboutHeader />
+      <VisionBanner />
+      <QuoteBanner />
+      <OrganizationBanner />
+      <CompanyInfoBanner />
+      <WTWUBanner />
+    </>
+  );
+}
 
-ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById("root")
-);
+export default AboutPage;
