@@ -27,12 +27,13 @@ import { Container } from "reactstrap";
 function CentralCollegeBanner() {
   return (
     <>
-        <div className="section" style={{backgroundColor: "DimGrey"}}>
+        <div className="section background-darkGrey">
             <Container>
-                <div class="typography-line">
-                    <h1>LEADING PROFESSIONAL CAREER INSTITUTION IN VANCOUVER</h1>
+                <div className="typography-line">
+                    <h2 className="bold font-white">LEADING PROFESSIONAL CAREER INSTITUTION IN VANCOUVER</h2>
+                    <br />
                     <img src={require("../../assets/img/CentralCollege.png")}/>
-                    <h3>Central College</h3>
+                    <h3 className="bold font-white">Central College</h3>
                 </div>
             </Container>
         </div>

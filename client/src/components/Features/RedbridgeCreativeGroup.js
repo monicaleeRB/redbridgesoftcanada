@@ -27,10 +27,10 @@ import { Container, Row, Col, Jumbotron } from "reactstrap";
 function RedbridgeCreativeGroup() {
   return (
     <>
-        <div className="page-header background-grey">
+        <div className="section background-grey">
             <Container>
                 <Row>
-                    <Col sm="5" className="content-center" style={{alignSelf: "center"}}>
+                    <Col sm="5" className="content-center align-center">
                         <div class="typography-line">
                             <img src={require("../../assets/img/RedbridgeCreativeGroup.png")} />
                         </div>
@@ -40,45 +40,47 @@ function RedbridgeCreativeGroup() {
                             <img src={require("../../assets/img/RedbridgeGame.png")} />
                         </div>
                     </Col>
-                    <Col className="content-center" style={{alignSelf: "center"}}>
-                        <div class="typography-line">
-                            <h2>LET'S PLAY MOBILE GAMES</h2> 
+                    <Col className="content-center align-center">
+                        <div class="typography-line-left">
+                            <h2>LET'S PLAY MOBILE GAMES</h2>
+                            <br />
                             <h6>We base social network platforms to create fun and enjoyable games for everyone.</h6>
+                            <br />
                             <a href="...">View More</a>
                         </div>
                     </Col>
                 </Row>
             </Container>
         </div>
-        <div>
-            <Jumbotron fluid className="background-red">
-                <Container fluid>
-                    <Row>
-                        <Col sm="5" className="content-center">
-                            <div style={{display:"flex"}}>
-                                <h3>CREATIVE WEB DESIGN <br /> 
-                                    <small>Website (PC, Mobile) Design, Planning, Maintenance, Electronic Commerce Marketing, System Development, Other IT Service.</small>
-                                    <small><a href="...">View More</a></small>
-                                </h3>
-                                <img src={require("../../assets/img/WebDesignIcon.png")} />
-                            </div>
-                        </Col>
-                        <Col></Col>
-                        <Col style = {{display: "flex", justifyContent: "space-evenly"}}>
-                            <div>
-                                <img src={require("../../assets/img/AndroidIcon.png")} />
-                            </div>
-                            <div>
-                                <img src={require("../../assets/img/AppleIcon.png")} />
-                            </div>
-                            <div>
-                                <img src={require("../../assets/img/WindowsIcon.png")} />
-                            </div>
-                        </Col>
-                    </Row>
-                </Container>
-            </Jumbotron>
-        </div>
+        <Jumbotron fluid className="background-red">
+            <Container>
+                <Row>
+                    <Col sm="5" className="content-center flex">
+                        <div className="flex-column">
+                            <h3 className = "font-white bold">CREATIVE WEB DESIGN</h3>
+                            <br /> 
+                            <h6 className = "font-white">Website (PC, Mobile) Design, Planning, Maintenance, Electronic Commerce Marketing, System Development, Other IT Service.</h6>
+                            <br />
+                            <h6 className = "font-white"><a href="...">View More</a></h6>
+                        </div>
+                    </Col>
+                    <Col>
+                        <img src={require("../../assets/img/WebDesignIcon.png")} />
+                    </Col>
+                    <Col className="flex space-evenly">
+                        <div>
+                            <img src={require("../../assets/img/AndroidIcon.png")} />
+                        </div>
+                        <div>
+                            <img src={require("../../assets/img/AppleIcon.png")} />
+                        </div>
+                        <div>
+                            <img src={require("../../assets/img/WindowsIcon.png")} />
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+        </Jumbotron>
     </>
   );
 }

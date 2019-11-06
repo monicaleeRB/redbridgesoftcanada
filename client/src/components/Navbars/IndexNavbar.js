@@ -21,14 +21,9 @@ import React from "react";
 import classnames from "classnames";
 // reactstrap components
 import {
-  Button,
+  Container, 
   Collapse,
-  NavbarBrand,
-  Navbar,
-  NavItem,
-  NavLink,
-  Nav,
-  Container
+  NavbarBrand, Navbar, NavItem, NavLink, Nav,
 } from "reactstrap";
 
 function IndexNavbar() {
@@ -140,17 +135,6 @@ function IndexNavbar() {
                 Games
               </NavLink>
             </NavItem>
-            {/* <NavItem>
-              <Button
-                className="btn-round"
-                color="danger"
-                href="#pablo"
-                target="_blank"
-                disabled
-              >
-                Upgrade to Pro
-              </Button>
-            </NavItem> */}
           </Nav>
         </Collapse>
       </Container>

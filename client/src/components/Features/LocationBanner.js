@@ -33,44 +33,44 @@ function LocationBanner() {
                 "url(" + require("../../assets/img/Map.png") + ")"
         }}>
             <Container>
-                <div class="typography-line">
-                    <h2>Location</h2>
+                <div className="typography-line">
+                    <h2 className="bold font-white">Location</h2>
                 </div>
                 <Row>
                     <Col className="content-center">
                         <div class="typography-line">
                             <img src={require("../../assets/img/MapCanada.png")} style={{width: "105%"}}/>
                         </div>
-                        <div class="typography-line">
-                            <h6>CANADA</h6>
+                        <div className="typography-line">
+                            <h5 className="bold font-white">CANADA</h5>
                             <img src={require("../../assets/img/FlagCanada.png")} />
                         </div>
                         <div class="typography-line">
-                            <p>330 – 825 Homer St, Vancouver BC, V6B2W2, CANADA</p>
+                            <p className="font-white">330 – 825 Homer St, Vancouver BC, V6B2W2, CANADA</p>
                         </div>
                     </Col>
                     <Col className="content-center">
-                        <div class="typography-line">
+                        <div className="typography-line">
                             <img src={require("../../assets/img/MapSouthKorea.png")} style={{width: "105%"}}/>
                         </div>
                         <div class="typography-line">
-                            <h6>KOREA</h6>
+                            <h5 className="bold font-white">KOREA</h5>
                             <img src={require("../../assets/img/FlagSouthKorea.png")} />
                         </div>
-                        <div class="typography-line">
-                            <p>601, Kolonbillant Ⅱ, 222-8, Guro-3-dong, Guro-gu, Seoul, SOUTH KOREA</p>
+                        <div className="typography-line">
+                            <p className="font-white">601, Kolonbillant Ⅱ, 222-8, Guro-3-dong, Guro-gu, Seoul, SOUTH KOREA</p>
                         </div>
                     </Col>
                     <Col className="content-center">
-                        <div class="typography-line">
+                        <div className="typography-line">
                             <img src={require("../../assets/img/MapSingapore.png")} style={{width: "105%"}}/>
                         </div>
-                        <div class="typography-line">
-                            <h6>SINGAPORE</h6>
+                        <div className="typography-line">
+                            <h5 className="bold font-white">SINGAPORE</h5>
                             <img src={require("../../assets/img/FlagSingapore.png")} />
                         </div>
-                        <div class="typography-line">
-                            <p>114 Lavender Street, #11-88 CT HUB 2, Singapore, 338729</p>
+                        <div className="typography-line">
+                            <p className="font-white">114 Lavender Street, #11-88 CT HUB 2, Singapore, 338729</p>
                         </div>
                     </Col>
                 </Row>

@@ -27,17 +27,19 @@ import { Container, Card, CardImg, CardTitle, CardText, CardDeck, CardBody, Card
 function LatestNewsBanner() {
   return (
     <>
-        <div className="section">
+        <div className="section background-white">
             <Container>
-                <div class="typography-line">
-                    <h2>Latest News</h2>
+                <div className="typography-line">
+                    <h2 className="bold">Latest News</h2>
+                    <br />
                     <button type="button" class="mr-1 btn btn-outline-default">View More</button>
                 </div>
                 <CardDeck>
                     <Card>
                         <CardImg top width="100%" src={require("../../assets/img/GamesCover.png")} alt="Games News Cover Image" />
                         <CardBody>
-                            <CardTitle>Games</CardTitle>
+                            <CardTitle><h6>Games</h6></CardTitle>
+                            <br/>
                             <CardText>REDBRIDGE SOFT is a game development and web service publishing company that evolves with the ever-growing industry.</CardText>
                             <CardText><small className="text-muted"><a href="...">View More</a></small></CardText>
                         </CardBody>
@@ -49,7 +51,8 @@ function LatestNewsBanner() {
                     <Card>
                         <CardImg top width="100%" src={require("../../assets/img/WebCover.png")} alt="Web News Cover Image" />
                         <CardBody>
-                            <CardTitle>Web</CardTitle>
+                            <CardTitle><h6>Web</h6></CardTitle>
+                            <br/>
                             <CardText>REDBRIDGE SOFT offers all web services including web development, mobile application, and consulting; currently providing quality web services to 40+ businessness.</CardText>
                             <CardText><small className="text-muted"><a href="...">View More</a></small></CardText>
                         </CardBody>
@@ -61,8 +64,9 @@ function LatestNewsBanner() {
                     <Card>
                         <CardImg top width="100%" src={require("../../assets/img/EducationCover.png")} alt="Education News Cover Image" />
                         <CardBody>
-                            <CardTitle>Education</CardTitle>
-                            <CardText>CENTRAL COLLEGE is a prestigious private school established in 2000 that provides education in Traditional Chinese Medicine, ESL, as well as the highly anticipated IT.</CardText>
+                            <CardTitle><h6>Education</h6></CardTitle>
+                            <br/>
+                            <CardText>CENTRAL COLLEGE is a professional career training institution established in 2000 that provides education in Traditional Chinese Medicine, ESL, as well as the highly anticipated IT.</CardText>
                             <CardText><small className="text-muted"><a href="...">View More</a></small></CardText>
                         </CardBody>
                         <CardFooter style={{display: "flex", justifyContent: "space-between"}}>

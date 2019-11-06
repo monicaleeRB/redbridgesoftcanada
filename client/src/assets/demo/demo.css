@@ -24,6 +24,54 @@
   background-color: rgb(223, 223, 223);
 }
 
+.background-darkGrey {
+  background-color: #767676;
+}
+
+.background-white {
+  background-color: #eee;
+}
+
+.footer-nav {
+  height:2.5em;
+  width: 100%;
+}
+
+.footer-nav-brand {
+  float: left;
+  width: 25%;
+}
+
+.footer-nav-links {
+  float: right;
+  width: 75%;
+  text-align: right;
+}
+
+.font-white {
+  color: #FFFFFF
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.align-center {
+  align-self: center;
+}
+
 .tim-row {
   margin-bottom: 20px;
 }
@@ -38,6 +86,14 @@
   display: block;
   width: 100%;
   text-align: center;
+}
+
+.typography-line-left {
+  margin-bottom: 35px;
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: left;
 }
 
 .typography-line span {

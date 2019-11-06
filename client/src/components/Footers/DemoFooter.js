@@ -28,53 +28,32 @@ function DemoFooter() {
       <Container>
         <Row>
           <nav className="footer-nav">
-            <ul style={{float:"left"}}>
+            <ul className="footer-nav-brand">
               <li>
                 <img alt="Redbridge Soft Logo" src={require("../../assets/img/RedbridgeLogoText.png")} />
               </li>
+            </ul>
+            <ul className="footer-nav-links">
               <li>
-                <a
-                  href=""
-                  target="_blank"
-                >
-                  About Us
-                </a>
+                <a href="" target="_blank">About Us</a>
               </li>
               <li>
-                <a
-                  href=""
-                  target="_blank"
-                >
-                  What We Do
-                </a>
+                <a href="" target="_blank">What We Do</a>
               </li>
               <li>
-                <a
-                  href=""
-                  target="_blank"
-                >
-                  Contact Us
-                </a>
+                <a href="" target="_blank">Contact Us</a>
               </li>
               <li>
-                <a
-                  href=""
-                  target="_blank"
-                >
-                  News
-                </a>
+                <a href="" target="_blank">News</a>
               </li>
               <li>
-                <a
-                  href=""
-                  target="_blank"
-                >
-                  Games
-                </a>
+                <a href="" target="_blank">Games</a>
               </li>
             </ul>
-            <div style={{float:"right"}}>COPYRIGHT @ REDBRIDGE SOFT. ALL RIGHTS RESERVED</div>
           </nav>
+          <div class="credits ml-auto">
+            <span class="copyright">COPYRIGHT @ REDBRIDGE SOFT. ALL RIGHTS RESERVED</span>
+          </div>
         </Row>
       </Container>
     </footer>
