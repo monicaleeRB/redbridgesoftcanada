@@ -27,23 +27,19 @@ import { Container } from "reactstrap";
 function IndexHeader() {
   return (
     <>
-      <div
-        className="page-header section-dark"
-        style={{
-          backgroundImage:
-            "url(" + require("../../assets/img/ChalkboardTypographyPoster.png") + ")"
-        }}
-      >
-        <div className="filter" />
-        <div className="content-center">
-          <Container>
-            <div className="title-brand">
-            <img alt="Redbridge Soft Logo" src={require("../../assets/img/RedbridgeLogo.png")} />
-              <h1 className="presentation-title">Creation, Innovation, Transition</h1>
-            </div>
+      <div className="page-header section-dark">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src={require("../../assets/video/ChalkboardTypography.mp4")} type="video/mp4" />
+        </video>
+      </div>
 
-          </Container>
-        </div>
+      <div className="overlay">
+        <Container>
+          <div className="title-brand">
+          <img alt="Redbridge Soft Logo" src={require("../../assets/img/RedbridgeLogo.png")} />
+            <h1 className="presentation-title">Creation, Innovation, Transition</h1>
+          </div>
+        </Container>
       </div>
     </>
   );
