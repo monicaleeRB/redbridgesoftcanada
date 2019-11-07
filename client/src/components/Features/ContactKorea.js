@@ -24,15 +24,21 @@ import React from "react";
 import { Container } from "reactstrap";
 
 // core components
-function AboutQuoteBanner() {
+function ContactKorea() {
   return (
     <>
-        <div className="section" style={{backgroundImage:"url(" + require("../../assets/img/QuoteBanner.png") + ")"}}>
+        <div className="section background-darkGrey">
             <Container>
+                <div className="section-bar-white"></div>
                 <div className="typography-line">
-                    <h3 className="strong-title font-white">Connect with the world with the vision of a better future</h3>
-                    <br />
-                    <h5 className="strong-title font-white">- Redbridge Soft -</h5>
+                    <h6 className="font-white">Korea</h6>
+                    <br/>
+                    <img src={require("../../assets/img/flag_korea.png")} />
+                    <br/>
+                    <h4 className="strong-title font-white">Seoul</h4>
+                    <br/>
+                    <p className="font-white">601, Kolonbillant Ⅱ, 222-8, Guro-3-dong, Guro-gu, Seoul, SOUTH KOREA</p>
+                    <h6 className="font-white">Tel. +82 2 857 4787</h6>
                 </div>
             </Container>
         </div>
@@ -40,4 +46,4 @@ function AboutQuoteBanner() {
   );
 }
 
-export default AboutQuoteBanner;
+export default ContactKorea;

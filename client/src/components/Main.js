@@ -22,6 +22,7 @@ import { Switch, Route } from "react-router-dom";
 import LandingPage from "../views/LandingPage";
 import AboutPage from "../views/AboutPage";
 import BusinessPage from "../views/BusinessPage";
+import ContactPage from "../views/ContactPage";
 
 function Main() {
   return (
@@ -30,6 +31,7 @@ function Main() {
             <Route exact path="/" render={()=> <LandingPage/>}/>
             <Route path="/about" render={()=> <AboutPage/>}/>
             <Route path="/business" render={()=> <BusinessPage/>}/>
+            <Route path="/contact" render={()=> <ContactPage/>}/>
         </Switch>
     </>
   );

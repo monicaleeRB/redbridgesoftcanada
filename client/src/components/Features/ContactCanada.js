@@ -24,15 +24,21 @@ import React from "react";
 import { Container } from "reactstrap";
 
 // core components
-function AboutQuoteBanner() {
+function ContactCanada() {
   return (
     <>
-        <div className="section" style={{backgroundImage:"url(" + require("../../assets/img/QuoteBanner.png") + ")"}}>
+        <div className="section background-red">
             <Container>
+                <div className="section-bar-white"></div>
                 <div className="typography-line">
-                    <h3 className="strong-title font-white">Connect with the world with the vision of a better future</h3>
-                    <br />
-                    <h5 className="strong-title font-white">- Redbridge Soft -</h5>
+                    <h6 className="font-white">Canada</h6>
+                    <br/>
+                    <img src={require("../../assets/img/flag_canada.png")} />
+                    <br/>
+                    <h4 className="strong-title font-white">Vancouver</h4>
+                    <br/>
+                    <p className="font-white">330 – 825 Homer St, Vancouver BC, V6B2W2, CANADA</p>
+                    <h6 className="font-white">Tel. +1 778 379 1123</h6>
                 </div>
             </Container>
         </div>
@@ -40,4 +46,4 @@ function AboutQuoteBanner() {
   );
 }
 
-export default AboutQuoteBanner;
+export default ContactCanada;

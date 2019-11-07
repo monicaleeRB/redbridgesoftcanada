@@ -24,13 +24,13 @@ import React from "react";
 import { Container } from "reactstrap";
 
 // core components
-function AboutQuoteBanner() {
+function ContactQuoteBanner() {
   return (
     <>
-        <div className="section" style={{backgroundImage:"url(" + require("../../assets/img/QuoteBanner.png") + ")"}}>
+        <div className="section" style={{backgroundImage:"url(" + require("../../assets/img/contact_pic.png") + ")"}}>
             <Container>
                 <div className="typography-line">
-                    <h3 className="strong-title font-white">Connect with the world with the vision of a better future</h3>
+                    <h3 className="strong-title font-white">Redbridge is just around the corner</h3>
                     <br />
                     <h5 className="strong-title font-white">- Redbridge Soft -</h5>
                 </div>
@@ -40,4 +40,4 @@ function AboutQuoteBanner() {
   );
 }
 
-export default AboutQuoteBanner;
+export default ContactQuoteBanner;

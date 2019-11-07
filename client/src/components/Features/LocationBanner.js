@@ -43,7 +43,7 @@ function LocationBanner() {
                         </div>
                         <div className="typography-line">
                             <h5 className="bold font-white">CANADA</h5>
-                            <img src={require("../../assets/img/FlagCanada.png")} />
+                            <img src={require("../../assets/img/flag_canada.png")} />
                         </div>
                         <div class="typography-line">
                             <p className="font-white">330 – 825 Homer St, Vancouver BC, V6B2W2, CANADA</p>
@@ -55,7 +55,7 @@ function LocationBanner() {
                         </div>
                         <div class="typography-line">
                             <h5 className="bold font-white">KOREA</h5>
-                            <img src={require("../../assets/img/FlagSouthKorea.png")} />
+                            <img src={require("../../assets/img/flag_korea.png")} />
                         </div>
                         <div className="typography-line">
                             <p className="font-white">601, Kolonbillant Ⅱ, 222-8, Guro-3-dong, Guro-gu, Seoul, SOUTH KOREA</p>
@@ -67,7 +67,7 @@ function LocationBanner() {
                         </div>
                         <div className="typography-line">
                             <h5 className="bold font-white">SINGAPORE</h5>
-                            <img src={require("../../assets/img/FlagSingapore.png")} />
+                            <img src={require("../../assets/img/flag_singapore.png")} />
                         </div>
                         <div className="typography-line">
                             <p className="font-white">114 Lavender Street, #11-88 CT HUB 2, Singapore, 338729</p>

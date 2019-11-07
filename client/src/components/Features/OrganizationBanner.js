@@ -32,7 +32,7 @@ function OrganizationBanner() {
                 <div className="section-bar"></div>
                 <div className="typography-line">
                     <h2 className="strong-title">Organization</h2>
-                    <img className="poster" src={require("../../assets/img/LogisticsChart.png")}/>
+                    <img className="poster-sm" src={require("../../assets/img/LogisticsChart.png")}/>
                 </div>
             </Container>
         </div>

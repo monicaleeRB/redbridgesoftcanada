@@ -24,7 +24,7 @@ import React from "react";
 import { Container } from "reactstrap";
 
 // core components
-function QuoteBanner() {
+function BusinessQuoteBanner() {
   return (
     <>
         <div className="section" style={{backgroundImage:"url(" + require("../../assets/img/business_pic.png") + ")"}}>
@@ -40,4 +40,4 @@ function QuoteBanner() {
   );
 }
 
-export default QuoteBanner;
+export default BusinessQuoteBanner;

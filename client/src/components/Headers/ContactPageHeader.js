@@ -16,28 +16,27 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-
 /*eslint-disable*/
 import React from "react";
 
 // reactstrap components
 import { Container } from "reactstrap";
 
-// core components
-function QuoteBanner() {
+function ContactPageHeader() {
   return (
     <>
-        <div className="section" style={{backgroundImage:"url(" + require("../../assets/img/QuoteBanner.png") + ")"}}>
+        <div className="page-header section-dark" style={{backgroundImage:"url(" + require("../../assets/img/contact_visual.png") + ")"}}>
+            <div className="content-center">
             <Container>
-                <div className="typography-line">
-                    <h3 className="bold font-white">CONNECT WITH THE WORLD WITH THE VISION OF A BETTER FUTURE</h3>
-                    <br />
-                    <h5 className="bold font-white">- REDBRIDGE SOFT -</h5>
+                <div className="title-brand">
+                    <img alt="Redbridge Soft Logo" src={require("../../assets/img/RedbridgeLogo.png")} />
+                    <h1 className="presentation-title">What We Do</h1>
                 </div>
             </Container>
+            </div>
         </div>
     </>
   );
 }
 
-export default QuoteBanner;
+export default ContactPageHeader;
