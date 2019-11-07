@@ -59,7 +59,7 @@ function LatestNewsBanner() {
                     </Col>
                     <Col xs="8">
                         <InputGroup>
-                            <Input />
+                            <Input placeholder="Search"/>
                             <InputGroupAddon addonType="append">
                             <Button color="secondary" size="sm"><i class="nc-icon nc-zoom-split" /></Button>
                             </InputGroupAddon>

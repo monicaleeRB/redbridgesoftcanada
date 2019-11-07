@@ -24,6 +24,7 @@ import AboutPage from "../views/AboutPage";
 import BusinessPage from "../views/BusinessPage";
 import ContactPage from "../views/ContactPage";
 import NewsPage from "../views/NewsPage";
+import GamesPage from "../views/GamesPage";
 
 function Main() {
   return (
@@ -34,6 +35,7 @@ function Main() {
             <Route path="/business" render={()=> <BusinessPage/>}/>
             <Route path="/contact" render={()=> <ContactPage/>}/>
             <Route path="/news" render={()=> <NewsPage/>}/>
+            <Route path="/games" render={()=> <GamesPage/>}/>
         </Switch>
     </>
   );
