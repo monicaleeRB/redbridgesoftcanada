@@ -1,35 +1,47 @@
 self.__precacheManifest = [
   {
-    "revision": "0c15f2657c6ada68c0b9",
-    "url": "/static/css/main.30fac6bf.chunk.css"
+    "revision": "58ff76192d771600e634",
+    "url": "/static/css/main.ccbf3596.chunk.css"
   },
   {
-    "revision": "0c15f2657c6ada68c0b9",
-    "url": "/static/js/main.0c15f265.chunk.js"
+    "revision": "58ff76192d771600e634",
+    "url": "/static/js/main.58ff7619.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "0f94244491e6af752ecb",
-    "url": "/static/js/2.0f942444.chunk.js"
+    "revision": "bc3972d4bc9544aa8fb9",
+    "url": "/static/js/2.bc3972d4.chunk.js"
   },
   {
-    "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
-    "url": "/static/media/nucleo-icons.5c78b4cf.woff2"
+    "revision": "5cc68466cf063efea3b0853b773e0995",
+    "url": "/static/media/GamesCover.5cc68466.png"
+  },
+  {
+    "revision": "e633a03c6f9e3e72f6b19f6a16ef0e0c",
+    "url": "/static/media/WebCover.e633a03c.png"
+  },
+  {
+    "revision": "838bf10efd5da7907aee5d5f69c15db2",
+    "url": "/static/media/EducationCover.838bf10e.png"
+  },
+  {
+    "revision": "6836b93bf1af0b571928d98458a68445",
+    "url": "/static/media/nucleo-icons.6836b93b.woff"
   },
   {
     "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
     "url": "/static/media/nucleo-icons.f32ed5ad.eot"
   },
   {
-    "revision": "48ac036da7c7923266266f63746fc5f1",
-    "url": "/static/media/nucleo-icons.48ac036d.ttf"
+    "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
+    "url": "/static/media/nucleo-icons.5c78b4cf.woff2"
   },
   {
-    "revision": "6836b93bf1af0b571928d98458a68445",
-    "url": "/static/media/nucleo-icons.6836b93b.woff"
+    "revision": "48ac036da7c7923266266f63746fc5f1",
+    "url": "/static/media/nucleo-icons.48ac036d.ttf"
   },
   {
     "revision": "743d289718fdd2cd6582857ddcf1ae40",
@@ -46,18 +58,6 @@ self.__precacheManifest = [
   {
     "revision": "7d9b593b74d43d7dcff63e15f8903022",
     "url": "/static/media/CentralCollege.7d9b593b.png"
-  },
-  {
-    "revision": "5cc68466cf063efea3b0853b773e0995",
-    "url": "/static/media/GamesCover.5cc68466.png"
-  },
-  {
-    "revision": "e633a03c6f9e3e72f6b19f6a16ef0e0c",
-    "url": "/static/media/WebCover.e633a03c.png"
-  },
-  {
-    "revision": "838bf10efd5da7907aee5d5f69c15db2",
-    "url": "/static/media/EducationCover.838bf10e.png"
   },
   {
     "revision": "023b1fba6e0b68c0778797ec9b9742a7",
@@ -128,7 +128,11 @@ self.__precacheManifest = [
     "url": "/static/media/contact_pic.6d04c5e6.png"
   },
   {
-    "revision": "3e075dd0bfdd1248ec065ce56c8ef79c",
+    "revision": "a558f780206591bce69bf568652d9c3b",
+    "url": "/static/media/news_visual.a558f780.png"
+  },
+  {
+    "revision": "0f229a6328ae2d33d1e926c9a6d57299",
     "url": "/index.html"
   }
 ];

@@ -23,6 +23,7 @@ import LandingPage from "../views/LandingPage";
 import AboutPage from "../views/AboutPage";
 import BusinessPage from "../views/BusinessPage";
 import ContactPage from "../views/ContactPage";
+import NewsPage from "../views/NewsPage";
 
 function Main() {
   return (
@@ -32,6 +33,7 @@ function Main() {
             <Route path="/about" render={()=> <AboutPage/>}/>
             <Route path="/business" render={()=> <BusinessPage/>}/>
             <Route path="/contact" render={()=> <ContactPage/>}/>
+            <Route path="/news" render={()=> <NewsPage/>}/>
         </Switch>
     </>
   );
