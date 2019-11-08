@@ -33,7 +33,7 @@ function ContactKorea() {
                 <div className="typography-line">
                     <h6 className="font-white">Korea</h6>
                     <br/>
-                    <img src={require("../../assets/img/flag_korea.png")} />
+                    <img src={require("../../../assets/img/flag_korea.png")} />
                     <br/>
                     <h4 className="strong-title font-white">Seoul</h4>
                     <br/>

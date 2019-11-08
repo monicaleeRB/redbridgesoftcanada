@@ -31,7 +31,7 @@ function OverviewBanner() {
                 <Row>
                     <Col className="content-center">
                         <div class="typography-line">
-                            <img src={require("../../assets/img/GameIcon.png")} />
+                            <img src={require("../../../assets/img/GameIcon.png")} />
                         </div>
                         <div class="typography-line">
                             <h6>Games</h6>
@@ -43,7 +43,7 @@ function OverviewBanner() {
                     </Col>
                     <Col className="content-center">
                         <div class="typography-line">
-                            <img src={require("../../assets/img/WebIcon.png")} />
+                            <img src={require("../../../assets/img/WebIcon.png")} />
                         </div>
                         <div class="typography-line">
                             <h6>Web</h6>
@@ -55,7 +55,7 @@ function OverviewBanner() {
                     </Col>
                     <Col className="content-center">
                         <div class="typography-line">
-                            <img src={require("../../assets/img/EducationIcon.png")} />
+                            <img src={require("../../../assets/img/EducationIcon.png")} />
                         </div>
                         <div class="typography-line">
                             <h6>Education</h6>

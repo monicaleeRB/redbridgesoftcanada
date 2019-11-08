@@ -70,7 +70,7 @@ function LatestNewsBanner() {
                 <br/>
                 <CardDeck>
                     <Card>
-                        <CardImg top width="100%" src={require("../../assets/img/GamesCover.png")} alt="Games News Cover Image" />
+                        <CardImg top width="100%" src={require("../../../assets/img/GamesCover.png")} alt="Games News Cover Image" />
                         <CardBody>
                             <CardTitle><h6>Games</h6></CardTitle>
                             <br/>
@@ -83,7 +83,7 @@ function LatestNewsBanner() {
                         </CardFooter>
                     </Card>
                     <Card>
-                        <CardImg top width="100%" src={require("../../assets/img/WebCover.png")} alt="Web News Cover Image" />
+                        <CardImg top width="100%" src={require("../../../assets/img/WebCover.png")} alt="Web News Cover Image" />
                         <CardBody>
                             <CardTitle><h6>Web</h6></CardTitle>
                             <br/>
@@ -96,7 +96,7 @@ function LatestNewsBanner() {
                         </CardFooter>
                     </Card>
                     <Card>
-                        <CardImg top width="100%" src={require("../../assets/img/EducationCover.png")} alt="Education News Cover Image" />
+                        <CardImg top width="100%" src={require("../../../assets/img/EducationCover.png")} alt="Education News Cover Image" />
                         <CardBody>
                             <CardTitle><h6>Education</h6></CardTitle>
                             <br/>

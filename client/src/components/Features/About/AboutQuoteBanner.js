@@ -27,7 +27,7 @@ import { Container } from "reactstrap";
 function AboutQuoteBanner() {
   return (
     <>
-        <div className="section" style={{backgroundImage:"url(" + require("../../assets/img/QuoteBanner.png") + ")"}}>
+        <div className="section" style={{backgroundImage:"url(" + require("../../../assets/img/QuoteBanner.png") + ")"}}>
             <Container>
                 <div className="typography-line">
                     <h3 className="strong-title font-white">Connect with the world with the vision of a better future</h3>

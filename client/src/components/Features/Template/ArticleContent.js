@@ -29,7 +29,7 @@ function ArticleContent() {
     <>
         <div className="section">
             <Container>
-                <img className="poster-sm" src={require("../../assets/img/news_con.png")}/>
+                <img className="poster-sm" src={require("../../../assets/img/news_con.png")}/>
                 <br/>
                 <p>
                     REDBRIDGE SOFT is a leading provider in mobile game and web service established 2014 in Vancouver, Canada. With game, mobile and web development offices in South Korea and China, the company expertise and operates globally in the mobile game and web development market.

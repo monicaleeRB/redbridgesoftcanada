@@ -31,12 +31,12 @@ function RedbridgeCreativeGroup() {
                 <Row>
                     <Col sm="5" className="content-center align-center">
                         <div class="typography-line">
-                            <img src={require("../../assets/img/RedbridgeCreativeGroup.png")} />
+                            <img src={require("../../../assets/img/RedbridgeCreativeGroup.png")} />
                         </div>
                     </Col>
                     <Col className="content-center">
                         <div class="typography-line">
-                            <img src={require("../../assets/img/RedbridgeGame.png")} />
+                            <img src={require("../../../assets/img/RedbridgeGame.png")} />
                         </div>
                     </Col>
                     <Col className="content-center align-center">
@@ -64,17 +64,17 @@ function RedbridgeCreativeGroup() {
                         </div>
                     </Col>
                     <Col>
-                        <img src={require("../../assets/img/WebDesignIcon.png")} />
+                        <img src={require("../../../assets/img/WebDesignIcon.png")} />
                     </Col>
                     <Col className="flex space-evenly">
                         <div>
-                            <img src={require("../../assets/img/AndroidIcon.png")} />
+                            <img src={require("../../../assets/img/AndroidIcon.png")} />
                         </div>
                         <div>
-                            <img src={require("../../assets/img/AppleIcon.png")} />
+                            <img src={require("../../../assets/img/AppleIcon.png")} />
                         </div>
                         <div>
-                            <img src={require("../../assets/img/WindowsIcon.png")} />
+                            <img src={require("../../../assets/img/WindowsIcon.png")} />
                         </div>
                     </Col>
                 </Row>

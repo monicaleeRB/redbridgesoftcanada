@@ -27,7 +27,7 @@ import { Container } from "reactstrap";
 function BusinessQuoteBanner() {
   return (
     <>
-        <div className="section" style={{backgroundImage:"url(" + require("../../assets/img/business_pic.png") + ")"}}>
+        <div className="section" style={{backgroundImage:"url(" + require("../../../assets/img/business_pic.png") + ")"}}>
             <Container>
                 <div className="typography-line">
                     <h3 className="strong-title font-white">Our business challenges to discover the uncovered</h3>

@@ -41,7 +41,7 @@ function WebBanner() {
                     </Col>
                     <Col sm="4" className="content-center align-center">
                         <div class="typography-line">
-                            <img src={require("../../assets/img/business_web.png")} />
+                            <img src={require("../../../assets/img/business_web.png")} />
                         </div>
                     </Col>
                 </Row>

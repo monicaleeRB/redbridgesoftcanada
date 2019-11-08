@@ -27,7 +27,7 @@ import { Container } from "reactstrap";
 function ContactQuoteBanner() {
   return (
     <>
-        <div className="section" style={{backgroundImage:"url(" + require("../../assets/img/contact_pic.png") + ")"}}>
+        <div className="section" style={{backgroundImage:"url(" + require("../../../assets/img/contact_pic.png") + ")"}}>
             <Container>
                 <div className="typography-line">
                     <h3 className="strong-title font-white">Redbridge is just around the corner</h3>

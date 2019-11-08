@@ -62,12 +62,12 @@ function GamesPageHeader() {
 
           <TabContent activeTab={activeTab}>
             <TabPane tabId="1">
-                <img className="poster-sm" src={require("../../assets/img/game01_01.png")}/>
-                <img className="poster-sm" src={require("../../assets/img/game01_03.png")}/>
+                <img className="poster-sm" src={require("../../../assets/img/game01_01.png")}/>
+                <img className="poster-sm" src={require("../../../assets/img/game01_03.png")}/>
             </TabPane>
 
             <TabPane tabId="2">
-                <img className="poster-sm" src={require("../../assets/img/game02.png")}/>
+                <img className="poster-sm" src={require("../../../assets/img/game02.png")}/>
             </TabPane>
           </TabContent>
         </div>

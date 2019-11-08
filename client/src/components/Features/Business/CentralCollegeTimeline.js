@@ -33,7 +33,7 @@ function CentralCollegeTimeline() {
                 <div className="typography-line">
                     <h2 className="strong-title">History</h2>
                     <br/>
-                    <img className="poster-lg" src={require("../../assets/img/central_college_history.png")}/>
+                    <img className="poster-lg" src={require("../../../assets/img/central_college_history.png")}/>
                 </div>
             </Container>
         </div>

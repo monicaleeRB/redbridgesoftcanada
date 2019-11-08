@@ -39,7 +39,7 @@ function CentralCollegeCertification() {
                 </div>
                 <Row>
                     <Col>
-                        <img className="badge-sm" alt="PTIB" src={require("../../assets/img/cer01.png")} style={{width:"27%"}}/>
+                        <img className="badge-sm" alt="PTIB" src={require("../../../assets/img/cer01.png")} style={{width:"27%"}}/>
                         <div className="typography-line">
                             <h4 className="strong-title">PTIB</h4>
                             <br/>
@@ -47,7 +47,7 @@ function CentralCollegeCertification() {
                         </div>
                     </Col>
                     <Col>
-                        <img className="badge-sm" alt="EQA" src={require("../../assets/img/cer02.png")}/>
+                        <img className="badge-sm" alt="EQA" src={require("../../../assets/img/cer02.png")}/>
                         <div className="typography-line">
                             <h4 className="strong-title">EQA</h4>
                             <br/>

@@ -32,7 +32,7 @@ function CentralCollegeBanner() {
                 <div className="typography-line">
                     <h2 className="bold font-white">LEADING PROFESSIONAL CAREER INSTITUTION IN VANCOUVER</h2>
                     <br />
-                    <img src={require("../../assets/img/CentralCollege.png")}/>
+                    <img src={require("../../../assets/img/CentralCollege.png")}/>
                     <h3 className="bold font-white">Central College</h3>
                 </div>
             </Container>

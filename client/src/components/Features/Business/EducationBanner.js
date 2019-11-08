@@ -32,7 +32,7 @@ function EducationBanner() {
                 <Row>
                     <Col sm="4" className="content-center align-center">
                         <div class="typography-line">
-                            <img src={require("../../assets/img/business_edu.png")} />
+                            <img src={require("../../../assets/img/business_edu.png")} />
                         </div>
                     </Col>
                      <Col sm="8" className="content-center align-center">

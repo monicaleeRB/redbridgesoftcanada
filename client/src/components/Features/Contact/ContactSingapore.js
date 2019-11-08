@@ -33,7 +33,7 @@ function ContactSingapore() {
                 <div className="typography-line">
                     <h6 className="font-white">Singapore</h6>
                     <br/>
-                    <img src={require("../../assets/img/flag_singapore.png")} />
+                    <img src={require("../../../assets/img/flag_singapore.png")} />
                     <br/>
                     <h4 className="strong-title font-white">Singapore</h4>
                     <br/>

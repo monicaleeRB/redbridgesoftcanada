@@ -32,7 +32,7 @@ function GamesBanner() {
                 <Row>
                     <Col sm="4" className="content-center align-center">
                         <div class="typography-line">
-                            <img src={require("../../assets/img/business_game.png")} />
+                            <img src={require("../../../assets/img/business_game.png")} />
                         </div>
                     </Col>
                      <Col sm="8" className="content-center align-center">
