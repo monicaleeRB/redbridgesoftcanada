@@ -18,7 +18,7 @@
 */
 
 /*eslint-disable*/
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { 
     Container, Row, Col,
@@ -30,9 +30,9 @@ import {
 // core components
 function LatestNewsBanner() {
     
-    // const [dropdownOpen, setDropdownOpen] = useState(false);
+    const [dropdownOpen, setDropdownOpen] = useState(false);
 
-    // const toggle = () => setDropdownOpen(prevState => !prevState);
+    const toggle = () => setDropdownOpen(prevState => !prevState);
 
     return (
     <>
@@ -46,7 +46,7 @@ function LatestNewsBanner() {
                     <Col xs="1"></Col>
                     <Col xs="2">
                         <Dropdown
-                        // isOpen={dropdownOpen} toggle={toggle}
+                        isOpen={dropdownOpen} toggle={toggle}
                         >
                             <DropdownToggle caret>Explore</DropdownToggle>
                             <DropdownMenu>
