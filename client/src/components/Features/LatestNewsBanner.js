@@ -19,11 +19,11 @@
 
 /*eslint-disable*/
 import React from "react";
+import { Link } from "react-router-dom";
+import { 
+    Container, 
+    Card, CardImg, CardTitle, CardText, CardDeck, CardBody, CardFooter } from "reactstrap";
 
-// reactstrap components
-import { Container, Card, CardImg, CardTitle, CardText, CardDeck, CardBody, CardFooter } from "reactstrap";
-
-// core components
 function LatestNewsBanner() {
   return (
     <>
@@ -41,7 +41,7 @@ function LatestNewsBanner() {
                             <CardTitle><h6>Games</h6></CardTitle>
                             <br/>
                             <CardText>REDBRIDGE SOFT is a game development and web service publishing company that evolves with the ever-growing industry.</CardText>
-                            <CardText><small className="text-muted"><a href="...">View More</a></small></CardText>
+                            <CardText><small className="text-muted"><Link to="/template">View More</Link></small></CardText>
                         </CardBody>
                         <CardFooter style={{display: "flex", justifyContent: "space-between"}}>
                             <small className="text-muted">2019-11-05</small>
@@ -54,7 +54,7 @@ function LatestNewsBanner() {
                             <CardTitle><h6>Web</h6></CardTitle>
                             <br/>
                             <CardText>REDBRIDGE SOFT offers all web services including web development, mobile application, and consulting; currently providing quality web services to 40+ businessness.</CardText>
-                            <CardText><small className="text-muted"><a href="...">View More</a></small></CardText>
+                            <CardText><small className="text-muted"><Link to="/template">View More</Link></small></CardText>
                         </CardBody>
                         <CardFooter style={{display: "flex", justifyContent: "space-between"}}>
                             <small className="text-muted">2019-11-05</small>
@@ -67,7 +67,7 @@ function LatestNewsBanner() {
                             <CardTitle><h6>Education</h6></CardTitle>
                             <br/>
                             <CardText>CENTRAL COLLEGE is a professional career training institution established in 2000 that provides education in Traditional Chinese Medicine, ESL, as well as the highly anticipated IT.</CardText>
-                            <CardText><small className="text-muted"><a href="...">View More</a></small></CardText>
+                            <CardText><small className="text-muted"><Link to="/template">View More</Link></small></CardText>
                         </CardBody>
                         <CardFooter style={{display: "flex", justifyContent: "space-between"}}>
                             <small className="text-muted">2019-11-05</small>

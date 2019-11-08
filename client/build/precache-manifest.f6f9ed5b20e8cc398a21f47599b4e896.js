@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "4a959c7c62ff313abdab",
-    "url": "/static/css/main.ccbf3596.chunk.css"
+    "revision": "1face972c54250803bdb",
+    "url": "/static/css/main.9c5d0ac2.chunk.css"
   },
   {
-    "revision": "4a959c7c62ff313abdab",
-    "url": "/static/js/main.4a959c7c.chunk.js"
+    "revision": "1face972c54250803bdb",
+    "url": "/static/js/main.1face972.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "b01803545cdb191d74c5",
-    "url": "/static/js/2.b0180354.chunk.js"
+    "revision": "567627a9c509c35a8b69",
+    "url": "/static/js/2.567627a9.chunk.js"
   },
   {
     "revision": "5cc68466cf063efea3b0853b773e0995",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/static/media/EducationCover.838bf10e.png"
   },
   {
-    "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
-    "url": "/static/media/nucleo-icons.5c78b4cf.woff2"
-  },
-  {
     "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
     "url": "/static/media/nucleo-icons.f32ed5ad.eot"
+  },
+  {
+    "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
+    "url": "/static/media/nucleo-icons.5c78b4cf.woff2"
   },
   {
     "revision": "6836b93bf1af0b571928d98458a68445",
@@ -148,7 +148,11 @@ self.__precacheManifest = [
     "url": "/static/media/game02.95c0f10f.png"
   },
   {
-    "revision": "77d6a726837487fcd2303d68dd6e45de",
+    "revision": "f8589618335d4f8a2be749eb5ca4ba91",
+    "url": "/static/media/news_con.f8589618.png"
+  },
+  {
+    "revision": "dc54e9b24c83a8e2eea069e64ae5e473",
     "url": "/index.html"
   }
 ];

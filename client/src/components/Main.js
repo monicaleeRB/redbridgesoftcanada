@@ -26,6 +26,8 @@ import ContactPage from "../views/ContactPage";
 import NewsPage from "../views/NewsPage";
 import GamesPage from "../views/GamesPage";
 
+import ArticleTemplate from "../views/ArticleTemplate";
+
 function Main() {
   return (
     <>
@@ -36,6 +38,7 @@ function Main() {
             <Route path="/contact" render={()=> <ContactPage/>}/>
             <Route path="/news" render={()=> <NewsPage/>}/>
             <Route path="/games" render={()=> <GamesPage/>}/>
+            <Route path="/template" render={()=> <ArticleTemplate/>}/>
         </Switch>
     </>
   );
