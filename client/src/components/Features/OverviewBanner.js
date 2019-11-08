@@ -19,8 +19,7 @@
 
 /*eslint-disable*/
 import React from "react";
-
-// reactstrap components
+import { Link } from "react-router-dom";
 import { Container, Row, Col } from "reactstrap";
 
 // core components
@@ -39,7 +38,7 @@ function OverviewBanner() {
                         </div>
                         <div class="typography-line">
                             <h5>Mobile Games Development Service</h5>
-                            <a href="...">View More</a>
+                            <Link to="/business">View More</Link>
                         </div>
                     </Col>
                     <Col className="content-center">
@@ -51,7 +50,7 @@ function OverviewBanner() {
                         </div>
                         <div class="typography-line">
                             <h5>Web Design Development Service</h5>
-                            <a href="...">View More</a>
+                            <Link to="/business">View More</Link>
                         </div>
                     </Col>
                     <Col className="content-center">
@@ -63,7 +62,7 @@ function OverviewBanner() {
                         </div>
                         <div class="typography-line">
                             <h5>Central College</h5>
-                            <a href="...">View More</a>
+                            <Link to="/business">View More</Link>
                         </div>
                     </Col>
                 </Row>

@@ -18,8 +18,7 @@
 */
 /*eslint-disable*/
 import React from "react";
-
-// reactstrap components
+import { Link } from "react-router-dom";
 import { Row, Container } from "reactstrap";
 
 function DemoFooter() {
@@ -35,19 +34,19 @@ function DemoFooter() {
             </ul>
             <ul className="footer-nav-links">
               <li>
-                <a href="" target="_blank">About Us</a>
+                <Link to="/about">About Us</Link>
               </li>
               <li>
-                <a href="" target="_blank">What We Do</a>
+                <Link to="/business">What We Do</Link>
               </li>
               <li>
-                <a href="" target="_blank">Contact Us</a>
+                <Link to="/contact">Contact Us</Link>
               </li>
               <li>
-                <a href="" target="_blank">News</a>
+                <Link to="/news">News</Link>
               </li>
               <li>
-                <a href="" target="_blank">Games</a>
+                <Link to="/games">Games</Link>
               </li>
             </ul>
           </nav>

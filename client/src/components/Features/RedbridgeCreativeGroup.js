@@ -19,8 +19,7 @@
 
 /*eslint-disable*/
 import React from "react";
-
-// reactstrap components
+import { Link } from "react-router-dom";
 import { Container, Row, Col, Jumbotron } from "reactstrap";
 
 // core components
@@ -46,7 +45,7 @@ function RedbridgeCreativeGroup() {
                             <br />
                             <h6>We base social network platforms to create fun and enjoyable games for everyone.</h6>
                             <br />
-                            <a href="...">View More</a>
+                            <Link to="/business">View More</Link>
                         </div>
                     </Col>
                 </Row>
@@ -61,7 +60,7 @@ function RedbridgeCreativeGroup() {
                             <br /> 
                             <h6 className = "font-white">Website (PC, Mobile) Design, Planning, Maintenance, Electronic Commerce Marketing, System Development, Other IT Service.</h6>
                             <br />
-                            <h6 className = "font-white"><a href="...">View More</a></h6>
+                            <h6 className = "font-white"><Link to="/business">View More</Link></h6>
                         </div>
                     </Col>
                     <Col>

@@ -41,7 +41,7 @@ function LatestNewsBanner() {
                             <CardTitle><h6>Games</h6></CardTitle>
                             <br/>
                             <CardText>REDBRIDGE SOFT is a game development and web service publishing company that evolves with the ever-growing industry.</CardText>
-                            <CardText><small className="text-muted"><Link to="/template">View More</Link></small></CardText>
+                            <CardText><small className="text-muted"><Link to="/news">View More</Link></small></CardText>
                         </CardBody>
                         <CardFooter style={{display: "flex", justifyContent: "space-between"}}>
                             <small className="text-muted">2019-11-05</small>
