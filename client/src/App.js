@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 import IndexNavbar from "./components/Navbars/IndexNavbar";
 import Main from "./components/Main";
-import DemoFooter from "./components/Footers/DemoFooter";
+import IndexFooter from "./components/Footers/IndexFooter";
 
 class App extends Component {
   render() {
@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <IndexNavbar />
         <Main />
-        <DemoFooter />
+        <IndexFooter />
       </div>
     );
   }
