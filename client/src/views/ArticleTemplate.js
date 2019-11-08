@@ -1,9 +1,9 @@
 import React from "react";
 
 import NewsPageHeader from "../components/Headers/NewsPageHeader";
-import ArticleTitle from "../components/Features/ArticleTitle";
-import ArticleInfoBanner from "../components/Features/ArticleInfoBanner";
-import ArticleContent from "../components/Features/ArticleContent";
+import ArticleTitle from "../components/Features/Template/ArticleTitle";
+import ArticleInfoBanner from "../components/Features/Template/ArticleInfoBanner";
+import ArticleContent from "../components/Features/Template/ArticleContent";
 import WTWUBanner from "../components/Features/WTWUBanner";
 
 function NewsPage() { 

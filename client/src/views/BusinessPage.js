@@ -1,13 +1,13 @@
 import React from "react";
 
 import BusinessHeader from "../components/Headers/BusinessPageHeader";
-import BusinessArea from "../components/Features/BusinessArea";
-import GamesBanner from "../components/Features/GamesBanner";
-import WebBanner from "../components/Features/WebBanner";
-import EducationBanner from "../components/Features/EducationBanner";
-import CentralCollegeTimeline from "../components/Features/CentralCollegeTimeline";
-import CentralCollegeCertification from "../components/Features/CentralCollegeCertification";
-import BusinessQuoteBanner from "../components/Features/BusinessQuoteBanner";
+import BusinessArea from "../components/Features/Business/BusinessArea";
+import GamesBanner from "../components/Features/Business/GamesBanner";
+import WebBanner from "../components/Features/Business/WebBanner";
+import EducationBanner from "../components/Features/Business/EducationBanner";
+import CentralCollegeTimeline from "../components/Features/Business/CentralCollegeTimeline";
+import CentralCollegeCertification from "../components/Features/Business/CentralCollegeCertification";
+import BusinessQuoteBanner from "../components/Features/Business/BusinessQuoteBanner";
 import WTWUBanner from "../components/Features/WTWUBanner";
 
 function BusinessPage() { 
