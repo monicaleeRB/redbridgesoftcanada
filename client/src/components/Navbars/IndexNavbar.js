@@ -16,9 +16,8 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-// nodejs library that concatenates strings
 import classnames from "classnames";
 // reactstrap components
 import {
@@ -28,26 +27,29 @@ import {
 } from "reactstrap";
 
 function IndexNavbar() {
-  const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
-  const [navbarCollapse, setNavbarCollapse] = React.useState(false);
+  const [navbarColor, setNavbarColor] = useState("navbar-transparent");
+  const [navbarCollapse, setNavbarCollapse] = useState(false);
+  const [navbarLinkColor, setNavbarLinkColor] = useState("strong-title-white");
 
   const toggleNavbarCollapse = () => {
     setNavbarCollapse(!navbarCollapse);
     document.documentElement.classList.toggle("nav-open");
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     const updateNavbarColor = () => {
       if (
         document.documentElement.scrollTop > 299 ||
         document.body.scrollTop > 299
       ) {
         setNavbarColor("");
+        setNavbarLinkColor("strong-title-darkGrey");
       } else if (
         document.documentElement.scrollTop < 300 ||
         document.body.scrollTop < 300
       ) {
         setNavbarColor("navbar-transparent");
+        setNavbarLinkColor("strong-title-white");
       }
     };
 
@@ -57,6 +59,7 @@ function IndexNavbar() {
       window.removeEventListener("scroll", updateNavbarColor);
     };
   });
+
   return (
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container>
@@ -89,27 +92,27 @@ function IndexNavbar() {
           <Nav navbar>
             <NavItem>
               <NavLink>
-                <Link to="/about">About Us</Link>
+                <Link className={navbarLinkColor} to="/about">About Us</Link>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink>
-                <Link to="/business">What We Do</Link>
+                <Link className={navbarLinkColor} to="/business">What We Do</Link>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink>
-                <Link to="/contact">Contact Us</Link>
+                <Link className={navbarLinkColor} to="/contact">Contact Us</Link>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink>
-                <Link to="/news">News</Link>
+                <Link className={navbarLinkColor} to="/news">News</Link>
               </NavLink>
             </NavItem>
             <NavItem>
               <NavLink>
-                <Link to="/games">Games</Link>
+                <Link className={navbarLinkColor} to="/games">Games</Link>
               </NavLink>
             </NavItem>
           </Nav>
