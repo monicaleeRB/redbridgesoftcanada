@@ -19,6 +19,8 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
+import ScrollToTop from "./ScrollToTop";
+
 import LandingPage from "../views/LandingPage";
 import AboutPage from "../views/AboutPage";
 import BusinessPage from "../views/BusinessPage";
@@ -31,6 +33,7 @@ import ArticleTemplate from "../views/ArticleTemplate";
 function Main() {
   return (
     <>
+      <ScrollToTop>
         <Switch>
             <Route exact path="/" render={()=> <LandingPage/>}/>
             <Route path="/about" render={()=> <AboutPage/>}/>
@@ -40,6 +43,7 @@ function Main() {
             <Route path="/games" render={()=> <GamesPage/>}/>
             <Route path="/template" render={()=> <ArticleTemplate/>}/>
         </Switch>
+      </ScrollToTop>
     </>
   );
 }
