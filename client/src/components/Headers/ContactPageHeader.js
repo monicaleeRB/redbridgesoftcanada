@@ -28,7 +28,7 @@ function ContactPageHeader() {
             <Container>
                 <div className="title-brand">
                     <img alt="Redbridge Soft Logo" src={require("../../assets/img/RedbridgeLogo.png")} />
-                    <h1 className="presentation-title">What We Do</h1>
+                    <h1 className="presentation-title">Contact Us</h1>
                 </div>
             </Container>
             </div>
