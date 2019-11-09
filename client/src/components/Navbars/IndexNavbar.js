@@ -23,7 +23,7 @@ import classnames from "classnames";
 import {
   Container, 
   Collapse,
-  NavbarBrand, Navbar, NavLink, NavItem, Nav,
+  Navbar, NavLink, NavItem, Nav,
 } from "reactstrap";
 
 function IndexNavbar() {
@@ -64,14 +64,7 @@ function IndexNavbar() {
     <Navbar className={classnames("fixed-top", navbarColor)} expand="lg">
       <Container>
         <div className="navbar-translate">
-          <NavbarBrand
-            data-placement="bottom"
-            href="/"
-            target="_blank"
-            title="Redbridge Soft"
-          >
-            Redbridge Soft
-          </NavbarBrand>
+            <Link className="navbar-brand" to="/">Redbridge Soft</Link>
           <button
             aria-expanded={navbarCollapse}
             className={classnames("navbar-toggler navbar-toggler", {
