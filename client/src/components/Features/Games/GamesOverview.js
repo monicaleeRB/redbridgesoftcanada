@@ -18,8 +18,6 @@
 */
 /*eslint-disable*/
 import React from "react";
-
-// reactstrap components
 import { 
     Nav, NavItem, NavLink,
     TabContent, TabPane } from "reactstrap";

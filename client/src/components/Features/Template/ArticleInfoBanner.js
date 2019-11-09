@@ -19,11 +19,8 @@
 
 /*eslint-disable*/
 import React from "react";
-
-// reactstrap components
 import { Container, Jumbotron, Row, Col } from "reactstrap";
 
-// core components
 function ArticleInfoBanner() {
   return (
     <>

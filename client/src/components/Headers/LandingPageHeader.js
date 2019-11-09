@@ -17,11 +17,7 @@
 
 */
 import React from "react";
-
-// reactstrap components
 import { Button, Container } from "reactstrap";
-
-// core components
 
 function LandingPageHeader() {
   let pageHeader = React.createRef();
