@@ -25,14 +25,14 @@ function ArticleInfoBanner() {
   return (
     <>
         <div>
-            <Jumbotron className="background-lightGrey">
+            <Jumbotron className="background-lightGrey jumbotron-sm">
                 <Container>
                     <Row>
                         <Col>
                             <h6>Redbridge Soft</h6>
                         </Col>
                         <Col xs="2" className="flex">
-                            <i class="nc-icon nc-calendar-60"/>
+                            <i className="nc-icon nc-calendar-60"/>
                             <h6 className="ml-2">2015-06-27</h6>
                         </Col>
                     </Row>

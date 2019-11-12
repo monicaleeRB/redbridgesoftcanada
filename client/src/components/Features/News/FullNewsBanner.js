@@ -118,12 +118,6 @@ function LatestNewsBanner() {
                     <PaginationItem active>
                         <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>1</PaginationLink>
                     </PaginationItem>
-                    {/* <PaginationItem>
-                        <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>2</PaginationLink>
-                    </PaginationItem>
-                    <PaginationItem>
-                        <PaginationLink href="#pablo" onClick={e => e.preventDefault()}>3</PaginationLink>
-                    </PaginationItem> */}
                     <PaginationItem disabled>
                         <PaginationLink next href="#pablo" onClick={e => e.preventDefault()}></PaginationLink>
                     </PaginationItem>

@@ -24,7 +24,8 @@ import { Container } from "reactstrap";
 function BusinessQuoteBanner() {
   return (
     <>
-        <div className="section" style={{backgroundImage:"url(" + require("../../../assets/img/business_pic.png") + ")"}}>
+        <div className="section-quote" style={{backgroundImage:"url(" + require("../../../assets/img/business_pic.png") + ")"}}>
+          <div className="content-center">
             <Container>
                 <div className="typography-line">
                     <h3 className="strong-title font-white">Our business challenges to discover the uncovered</h3>
@@ -32,6 +33,7 @@ function BusinessQuoteBanner() {
                     <h5 className="strong-title font-white">- Redbridge Soft -</h5>
                 </div>
             </Container>
+          </div>
         </div>
     </>
   );

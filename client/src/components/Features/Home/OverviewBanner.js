@@ -33,12 +33,13 @@ function OverviewBanner() {
                         <div class="typography-line">
                             <img src={require("../../../assets/img/GameIcon.png")} />
                         </div>
-                        <div class="typography-line">
-                            <h6>Games</h6>
+                        <div className="typography-line">
+                            <h5 className="strong-title">Games</h5>
                         </div>
-                        <div class="typography-line">
-                            <h5>Mobile Games Development Service</h5>
-                            <Link to="/business">View More</Link>
+                        <div className="typography-line">
+                            <h6>Mobile Games Development Service</h6>
+                            <br/>
+                            <h6><Link to="/business">View More</Link></h6>
                         </div>
                     </Col>
                     <Col className="content-center">
@@ -46,11 +47,12 @@ function OverviewBanner() {
                             <img src={require("../../../assets/img/WebIcon.png")} />
                         </div>
                         <div class="typography-line">
-                            <h6>Web</h6>
+                            <h5 className="strong-title">Web</h5>
                         </div>
                         <div class="typography-line">
-                            <h5>Web Design Development Service</h5>
-                            <Link to="/business">View More</Link>
+                            <h6>Web Design Development Service</h6>
+                            <br/>
+                            <h6><Link to="/business">View More</Link></h6>
                         </div>
                     </Col>
                     <Col className="content-center">
@@ -58,11 +60,12 @@ function OverviewBanner() {
                             <img src={require("../../../assets/img/EducationIcon.png")} />
                         </div>
                         <div class="typography-line">
-                            <h6>Education</h6>
+                            <h5 className="strong-title">Education</h5>
                         </div>
                         <div class="typography-line">
-                            <h5>Central College</h5>
-                            <Link to="/business">View More</Link>
+                            <h6>Central College</h6>
+                            <br/>
+                            <h6><Link to="/business">View More</Link></h6>
                         </div>
                     </Col>
                 </Row>

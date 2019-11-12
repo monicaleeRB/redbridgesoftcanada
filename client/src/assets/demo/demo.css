@@ -70,7 +70,7 @@
 }
 
 .footer-nav {
-  height:2.5em;
+  height: 2.5em;
   width: 100%;
 }
 
@@ -124,6 +124,20 @@
   filter:brightness(150%);
 }
 
+.section-quote {
+  height: 35em;
+  padding: 90px 0;
+  position: relative;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-quote .content-center {
+  margin-top: 85px; 
+}
+
 .badge-sm {
   display: block;
   margin-left: auto;
@@ -135,7 +149,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 50%;
 }
 
 .poster-lg {
@@ -143,6 +157,10 @@
   margin-left: auto;
   margin-right: auto;
   width: 95%;
+}
+
+.jumbotron-sm {
+  padding: 2em;
 }
 
 .flex {
@@ -163,6 +181,10 @@
 
 .align-center {
   align-self: center;
+}
+
+a {
+  color: #444444;
 }
 
 .tim-row {

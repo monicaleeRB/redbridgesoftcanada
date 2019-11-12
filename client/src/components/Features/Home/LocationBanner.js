@@ -31,7 +31,7 @@ function LocationBanner() {
         }}>
             <Container>
                 <div className="typography-line">
-                    <h2 className="bold font-white">Location</h2>
+                    <h2 className="strong-title-white">Location</h2>
                 </div>
                 <Row>
                     <Col className="content-center">
@@ -39,7 +39,7 @@ function LocationBanner() {
                             <img src={require("../../../assets/img/MapCanada.png")} style={{width: "105%"}}/>
                         </div>
                         <div className="typography-line">
-                            <h5 className="bold font-white">CANADA</h5>
+                            <h5 className="strong-title-white">CANADA</h5>
                             <img src={require("../../../assets/img/flag_canada.png")} />
                         </div>
                         <div class="typography-line">
@@ -51,7 +51,7 @@ function LocationBanner() {
                             <img src={require("../../../assets/img/MapSouthKorea.png")} style={{width: "105%"}}/>
                         </div>
                         <div class="typography-line">
-                            <h5 className="bold font-white">KOREA</h5>
+                            <h5 className="strong-title-white">KOREA</h5>
                             <img src={require("../../../assets/img/flag_korea.png")} />
                         </div>
                         <div className="typography-line">
@@ -63,7 +63,7 @@ function LocationBanner() {
                             <img src={require("../../../assets/img/MapSingapore.png")} style={{width: "105%"}}/>
                         </div>
                         <div className="typography-line">
-                            <h5 className="bold font-white">SINGAPORE</h5>
+                            <h5 className="strong-title-white">SINGAPORE</h5>
                             <img src={require("../../../assets/img/flag_singapore.png")} />
                         </div>
                         <div className="typography-line">

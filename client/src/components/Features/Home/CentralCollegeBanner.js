@@ -27,10 +27,10 @@ function CentralCollegeBanner() {
         <div className="section background-darkGrey">
             <Container>
                 <div className="typography-line">
-                    <h2 className="bold font-white">LEADING PROFESSIONAL CAREER INSTITUTION IN VANCOUVER</h2>
+                    <h2 className="strong-title-white">LEADING PROFESSIONAL CAREER INSTITUTION IN VANCOUVER</h2>
                     <br />
                     <img src={require("../../../assets/img/CentralCollege.png")}/>
-                    <h3 className="bold font-white">Central College</h3>
+                    <h3 className="strong-title-white">Central College</h3>
                 </div>
             </Container>
         </div>

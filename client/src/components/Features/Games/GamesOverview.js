@@ -43,7 +43,7 @@ function GamesPageHeader() {
                             className={activeTab === "1" ? "active" : ""}
                             onClick={() => {toggle("1")}}
                         >
-                            <h2 className="bold font-white">Bridge War</h2>
+                            <h2 className="strong-title-white">Bridge War</h2>
                         </NavLink>
                     </NavItem>
                     <NavItem>
@@ -51,7 +51,7 @@ function GamesPageHeader() {
                             className={activeTab === "2" ? "active" : ""}
                             onClick={() => {toggle("2")}}
                         >
-                            <h2 className="bold font-white" style={{marginLeft:"5em"}}>Serpent Wheel</h2>
+                            <h2 className="strong-title-white" style={{marginLeft:"8em"}}>Serpent Wheel</h2>
                         </NavLink>
                     </NavItem>
                 </Nav>
