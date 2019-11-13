@@ -60,7 +60,7 @@ function RedbridgeCreativeGroup() {
                             <br /> 
                             <h6 className = "font-white">Website (PC, Mobile) Design, Planning, Maintenance, Electronic Commerce Marketing, System Development, Other IT Service.</h6>
                             <br />
-                            <h6 className = "font-white"><Link to="/business">View More</Link></h6>
+                            <h6><Link to="/business" className = "font-white">View More</Link></h6>
                         </div>
                     </Col>
                     <Col>
