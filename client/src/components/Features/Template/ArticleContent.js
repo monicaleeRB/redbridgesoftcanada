@@ -19,6 +19,7 @@
 
 /*eslint-disable*/
 import React from "react";
+import { Link } from "react-router-dom";
 import { Container } from "reactstrap";
 
 function ArticleContent() {
@@ -34,7 +35,7 @@ function ArticleContent() {
                 <br/>
                 <br/>
                 <div className="flex justify-center">
-                    <a href="/news" className="mr-1 btn strong-title">Back to the list</a>
+                    <Link to="/news" className="mr-1 btn strong-title">Back to the list</Link>
                 </div>
             </Container>
         </div>

@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "b5545fc37fbfbf21df24",
+    "revision": "02f362ff8fd6f4688c12",
     "url": "/static/css/main.3f8f5eaa.chunk.css"
   },
   {
-    "revision": "b5545fc37fbfbf21df24",
-    "url": "/static/js/main.b5545fc3.chunk.js"
+    "revision": "02f362ff8fd6f4688c12",
+    "url": "/static/js/main.02f362ff.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "075461eb5c6465dac955",
-    "url": "/static/js/2.075461eb.chunk.js"
+    "revision": "38a6c1667dab1bb84256",
+    "url": "/static/js/2.38a6c166.chunk.js"
   },
   {
     "revision": "5cc68466cf063efea3b0853b773e0995",
@@ -28,16 +28,16 @@ self.__precacheManifest = [
     "url": "/static/media/EducationCover.838bf10e.png"
   },
   {
-    "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
-    "url": "/static/media/nucleo-icons.5c78b4cf.woff2"
-  },
-  {
     "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
     "url": "/static/media/nucleo-icons.f32ed5ad.eot"
   },
   {
     "revision": "6836b93bf1af0b571928d98458a68445",
     "url": "/static/media/nucleo-icons.6836b93b.woff"
+  },
+  {
+    "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
+    "url": "/static/media/nucleo-icons.5c78b4cf.woff2"
   },
   {
     "revision": "48ac036da7c7923266266f63746fc5f1",
@@ -156,7 +156,7 @@ self.__precacheManifest = [
     "url": "/static/media/news_con.f8589618.png"
   },
   {
-    "revision": "6b236507d2b8ea1acbce614ef083da65",
+    "revision": "fd834af051fabe2e2eae63b127d1297c",
     "url": "/index.html"
   }
 ];
