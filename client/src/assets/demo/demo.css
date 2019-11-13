@@ -159,6 +159,23 @@
   width: 95%;
 }
 
+.poster-background {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 50%;
+}
+
+.game-demo {
+  width: 73%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .jumbotron-sm {
   padding: 2em;
 }

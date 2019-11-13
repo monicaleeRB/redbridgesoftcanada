@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "927b4fc59bfb39ca38ba",
-    "url": "/static/css/main.cc1af4ed.chunk.css"
+    "revision": "b5545fc37fbfbf21df24",
+    "url": "/static/css/main.3f8f5eaa.chunk.css"
   },
   {
-    "revision": "927b4fc59bfb39ca38ba",
-    "url": "/static/js/main.927b4fc5.chunk.js"
+    "revision": "b5545fc37fbfbf21df24",
+    "url": "/static/js/main.b5545fc3.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
     "url": "/static/js/runtime~main.fdfcfda2.js"
   },
   {
-    "revision": "bfc172f42390de3714bc",
-    "url": "/static/js/2.bfc172f4.chunk.js"
+    "revision": "075461eb5c6465dac955",
+    "url": "/static/js/2.075461eb.chunk.js"
   },
   {
     "revision": "5cc68466cf063efea3b0853b773e0995",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/static/media/nucleo-icons.5c78b4cf.woff2"
   },
   {
-    "revision": "6836b93bf1af0b571928d98458a68445",
-    "url": "/static/media/nucleo-icons.6836b93b.woff"
-  },
-  {
     "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
     "url": "/static/media/nucleo-icons.f32ed5ad.eot"
+  },
+  {
+    "revision": "6836b93bf1af0b571928d98458a68445",
+    "url": "/static/media/nucleo-icons.6836b93b.woff"
   },
   {
     "revision": "48ac036da7c7923266266f63746fc5f1",
@@ -140,6 +140,10 @@ self.__precacheManifest = [
     "url": "/static/media/game01_01.0b344ff1.png"
   },
   {
+    "revision": "367975a3e858512d3c5b4118afb1a08b",
+    "url": "/static/media/game01_02.367975a3.png"
+  },
+  {
     "revision": "cbd34397eb758e01a0efe6d0e9b50736",
     "url": "/static/media/game01_03.cbd34397.png"
   },
@@ -152,7 +156,7 @@ self.__precacheManifest = [
     "url": "/static/media/news_con.f8589618.png"
   },
   {
-    "revision": "d80d1efc6ce82d54616e11d39e163d27",
+    "revision": "6b236507d2b8ea1acbce614ef083da65",
     "url": "/index.html"
   }
 ];

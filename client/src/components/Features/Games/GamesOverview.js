@@ -61,6 +61,11 @@ function GamesPageHeader() {
           <TabContent activeTab={activeTab}>
             <TabPane tabId="1">
                 <img className="poster-sm" src={require("../../../assets/img/game01_01.png")}/>
+                <div className="poster-background" style={{backgroundImage:"url(" + require("../../../assets/img/game01_02.png") + ")"}}>
+                    <div className="game-demo">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/H-rJakY9bE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
                 <img className="poster-sm" src={require("../../../assets/img/game01_03.png")}/>
             </TabPane>
 
