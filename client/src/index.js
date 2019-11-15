@@ -25,10 +25,13 @@ import "./assets/scss/paper-kit.scss";
 import "./assets/demo/demo.css";
 
 import App from "./App";
+import Firebase, { FirebaseContext } from "./components/Firebase";
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
+  <FirebaseContext.Provider value={new Firebase()}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </FirebaseContext.Provider>,
   document.getElementById("root")
 );
