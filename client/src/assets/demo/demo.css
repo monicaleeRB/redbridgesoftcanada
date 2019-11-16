@@ -61,7 +61,7 @@
 
 .overlay {
   position: absolute;
-  top: 35%;
+  top: 22em;
   color: #f1f1f1;
   width: 100%;
   padding: 20px;
@@ -75,6 +75,7 @@
 }
 
 .footer-nav-brand {
+  text-align: left;
   float: left;
   width: 25%;
 }
@@ -202,6 +203,10 @@
 
 a {
   color: #444444;
+}
+
+.navbarLinkColor {
+  color: #FFFFFF;
 }
 
 .tim-row {
@@ -581,6 +586,30 @@ a {
 }
 
 @media (max-width: 768px) {
+  .responsive-flex {
+    flex-direction: column;
+  }
+
+  .typography-line {
+    padding-left: 0 !important;
+  }
+  
+  .footer-nav-brand {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .footer-nav-links {
+    display: none;
+  }
+
+  .footer .credits {
+    margin-left: 0 !important;
+    width: 100%;
+    text-align: center;
+  }
+
   .parallax .parallax-image {
     width: 100%;
     height: 640px;
@@ -831,6 +860,7 @@ a {
 .section-images {
   padding-bottom: 0;
 }
+
 
 @media screen and (max-width: 991px) {
   .section-navbars .navbar-collapse {

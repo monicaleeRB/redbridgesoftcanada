@@ -13,8 +13,10 @@ import app from "firebase/app";
   };
 
   // Initialize Firebase
-function Firebase() {
-    app.initalizeApp(firebaseConfig);
+class Firebase {
+  constructor() {
+    app.initializeApp(firebaseConfig);
+  }
 }
 
 export default Firebase;

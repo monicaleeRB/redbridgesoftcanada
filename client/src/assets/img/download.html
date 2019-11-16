@@ -1,0 +1,1770 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="title" content="GOOSE EDU" />
+<meta name="publisher" content="GOOSE EDU" />
+<meta name="author" content="GOOSE EDU" />
+<meta name="robots" content="index,follow" />
+<meta name="keywords" content="GOOSE EDU" />
+<meta name="description" content="GOOSE EDU" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:title" content="GOOSE EDU" />
+<meta property="og:site_name" content="GOOSE EDU" />
+<meta property="og:author" content="GOOSE EDU" />
+<meta property="og:type" content="" />
+<meta property="og:description" content="GOOSE EDU" />
+<meta property="og:url" content="http://gooseedu.com/" />
+<link rel="canonical" href="http://gooseedu.com/" />
+<title>GOOSE EDU</title>
+<link rel="stylesheet" href="https://gooseedu.com/css/default_shop.css?ver=171013">
+<link rel="stylesheet" href="https://gooseedu.com/css/apms.css?ver=171013">
+<link rel="stylesheet" href="https://gooseedu.com/plugin/apms/owlcarousel/owl.carousel.css?ver=171013">
+
+<link rel="stylesheet" href="https://gooseedu.com/thema/Fivesense-basic/assets/bs3/css/bootstrap.min.css" type="text/css" class="thema-mode">
+<link rel="stylesheet" href="https://gooseedu.com/thema/Fivesense-basic/colorset/Basic-Box/colorset.css" type="text/css" class="thema-colorset">
+<link rel="stylesheet" href="https://gooseedu.com/css/common.css" type="text/css" class="thema-colorset">
+<link rel="stylesheet" href="https://gooseedu.com/css/sub.css" type="text/css" class="thema-colorset">
+<link rel="stylesheet" href="https://gooseedu.com/thema/Fivesense-basic/widget/miso-keyword/widget.css" >
+<link rel="stylesheet" href="https://gooseedu.com/thema/Fivesense-basic/widget/basic-post-slider/widget.css?ver=171013">
+<link rel="stylesheet" href="https://gooseedu.com/thema/Fivesense-basic/widget/basic-post-slider02/widget.css?ver=171013">
+<link rel="stylesheet" href="https://gooseedu.com/thema/Fivesense-basic/widget/miso-post-gallery/widget.css" >
+<link rel="stylesheet" href="https://gooseedu.com/thema/Fivesense-basic/widget/miso-sidebar/widget.css" >
+<link rel="stylesheet" href="https://gooseedu.com/css/font-awesome/css/font-awesome.min.css?ver=171013">
+<link rel="stylesheet" href="https://gooseedu.com/css/level/basic.css?ver=171013">
+<!--[if lte IE 8]>
+<script src="https://gooseedu.com/js/html5.js"></script>
+<![endif]-->
+<script>
+// 자바스크립트에서 사용하는 전역변수 선언
+var g5_url       = "https://gooseedu.com";
+var g5_bbs_url   = "https://gooseedu.com/bbs";
+var g5_is_member = "";
+var g5_is_admin  = "";
+var g5_is_mobile = "";
+var g5_bo_table  = "";
+var g5_sca       = "";
+var g5_pim       = "";
+var g5_editor    = "";
+var g5_responsive    = "1";
+var g5_cookie_domain = "";
+var g5_purl = "http://gooseedu.com/";
+</script>
+<script src="https://gooseedu.com/js/jquery-1.11.3.min.js"></script>
+<script src="https://gooseedu.com/js/jquery-migrate-1.2.1.min.js"></script>
+<script src="https://gooseedu.com/lang/korean/lang.js?ver=171013"></script>
+<script src="https://gooseedu.com/js/common.js?ver=171013"></script>
+<script src="https://gooseedu.com/js/wrest.js?ver=171013"></script>
+<script src="https://gooseedu.com/js/apms.js?ver=171013"></script>
+<script src="https://gooseedu.com/plugin/apms/js/jquery.mobile.swipe.min.js"></script>
+<script src="https://gooseedu.com/plugin/apms/owlcarousel/owl.carousel.min.js"></script>
+</head>
+<body class="responsive is-pc">
+
+<!-- 팝업레이어 시작 { -->
+<div id="hd_pop">
+    <h2>팝업레이어 알림</h2>
+
+<span class="sound_only">팝업레이어 알림이 없습니다.</span></div>
+
+<script>
+$(function() {
+    $(".hd_pops_reject").click(function() {
+        var id = $(this).attr('class').split(' ');
+        var ck_name = id[1];
+        var exp_time = parseInt(id[2]);
+        $("#"+id[1]).css("display", "none");
+        set_cookie(ck_name, 1, exp_time, g5_cookie_domain);
+    });
+    $('.hd_pops_close').click(function() {
+        var idb = $(this).attr('class').split(' ');
+        $('#'+idb[1]).css('display','none');
+    });
+    $("#hd").css("z-index", 1000);
+});
+</script>
+<!-- } 팝업레이어 끝 --><style>
+		.at-container {max-width:1200px;}
+	.no-responsive .wrapper, .no-responsive .at-container-wide { min-width:1200px; }
+	.no-responsive .boxed.wrapper, .no-responsive .at-container { width:1200px; }
+	.at-menu .nav-height { height:90px; line-height:90px !important; }
+	.pc-menu, .pc-menu .nav-full-back, .pc-menu .nav-full-height { height:90px; }
+	.pc-menu .nav-top.nav-float .menu-a, .pc-menu .nav-mega .menu-a { padding:0px 30px; }
+	.pc-menu .nav-top.nav-float .sub-1div::before { left: 30px; }
+	.pc-menu .nav-full-first, .pc-menu .nav-full-last, .pc-menu .nav-full.on .sub-1div { height: 400px; }
+	.pc-menu .nav-full.on, .pc-menu .nav-full.on .at-container { height:490px; }
+	.pc-menu .subm-w { width:133px; }
+	.pc-menu .nav-content, .pc-menu .nav-cw { width:150px; }
+	.pc-menu .nav-content-height { height:400px; }
+	.pc-menu .nav-content .sub-content { width:860px; left:150px; }
+	@media all and (min-width:1200px) {
+		.responsive .boxed.wrapper { max-width:1200px; }
+	}
+</style>
+<script src="https://gooseedu.com/js/jquery.rwdImageMaps.min.js"></script>
+<script src="https://gooseedu.com/js/jquery.rwdImageMaps.js"></script>
+<script>
+$(document).ready(function() {
+   $('img[usemap]').rwdImageMaps();
+   $("area").attr("hidefocus", "true").attr("onFocus","blur()");
+});
+</script>
+<style>
+@media (max-width:1900px){
+    img[usemap] {
+      border: none;
+      height: auto;
+      max-width: 100%;
+      width: auto;
+    }
+
+}
+@media (max-width: 991px) {
+img[usemap] {
+      border: none;
+      height: auto !important;
+      max-width: 100%;
+      width: 100% !important;
+   }
+}
+</style>
+<div class="at-html">
+	<div id="thema_wrapper" class="wrapper  ko">
+		<header class="at-header">
+			<!-- LNB -->
+			<aside class="at-lnb">
+				<div class="at-container">
+					<!-- LNB Left -->
+					<div class="pull-left">
+						<ul class="top_sns">
+							<li><a href="https://www.instagram.com/gooseedu/" target="_blank"><img src="https://gooseedu.com/img/sns_01.jpg" alt=""></a></li>
+							<li><a href="https://www.facebook.com/gooseedu" target="_blank"><img src="https://gooseedu.com/img/sns_02.jpg" alt=""></a></li>
+							<li><a href="https://pf.kakao.com/_hNspC" target="_blank"><img src="https://gooseedu.com/img/sns_03.jpg" alt=""></a></li>
+							<li><a href="https://blog.naver.com/gooseedu" target="_blank"><img src="https://gooseedu.com/img/sns_04.jpg" alt=""></a></li>
+							<li class="top_search">
+							<form name="fsearchbox" method="get" action="https://gooseedu.com/bbs/search.php" onsubmit="return fsearchbox_submit(this);">
+								<input type="hidden" name="sfl" value="wr_subject||wr_content">
+								<input type="hidden" name="sop" value="and">
+								<input type="text" name="stx" value="" id="sch_stx" maxlength="20" placeholder="SEARCH" class="search-input">
+								<button type="submit" id="sch_submit"><i class="fa fa-search"></i></button>
+							</form>
+						</li>		
+						</ul>
+					</div>
+					<!-- LNB Right -->
+					<div class="pull-right">
+						<ul class="real_lnb">
+															<li><a href="https://gooseedu.com/bbs/login.php?url=%2F">LOG IN</a></li>
+								<li><a href="https://gooseedu.com/bbs/register.php">SIGN IN</a></li>
+								<!-- <li><a href="https://gooseedu.com/bbs/password_lost.php" class="win_password_lost">아이디/비밀번호 찾기	</a></li> -->
+														<!-- 															 -->
+								<li><a href="https://gooseedu.com/shop/mypage.php">MY PAGE</a></li>
+													</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</aside>
+
+			<!-- PC Header -->
+			<div class="pc-header">
+				<div class="at-container">
+					<!-- PC Logo -->
+					<div class="header-logo">
+						<a href="https://gooseedu.com">
+                            <img src="/img/logo.png" style="width: 237px; height:68px;" title="">
+                        </a>
+					</div>
+					<!-- PC Search -->
+					<div class="header-search">
+						<form name="tsearch" method="get" onsubmit="return tsearch_submit(this);" role="form" class="form">
+						<input type="hidden" name="url"	value="https://gooseedu.com/shop/search.php">
+							<div class="input-group input-group-sm">
+								<input type="text" name="stx" class="form-control input-sm" value="">
+								<span class="input-group-btn">
+									<button type="submit" class="btn btn-sm"><i class="fa fa-search fa-lg"></i></button>
+								</span>
+							</div>
+						</form>
+						<div class="header-keyword">
+							<div class="miso-keyword">
+	<a href="https://gooseedu.com/bbs/search.php?stx=%EA%B2%80%EC%83%89%EC%96%B42">검색어2</a>
+	<a href="https://gooseedu.com/bbs/search.php?stx=%EA%B2%80%EC%83%89%EC%96%B41">검색어1</a>
+	<a href="https://gooseedu.com/bbs/search.php?stx=%EA%B2%80%EC%83%89%EC%96%B44">검색어4</a>
+	<a href="https://gooseedu.com/bbs/search.php?stx=%EA%B2%80%EC%83%89%EC%96%B43">검색어3</a>
+</div>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+			<!-- Mobile Header -->
+			<div class="m-header">
+				<div class="at-container">
+					<div class="header-wrap">
+						<div class="header-logo en">
+							<!-- Mobile Logo -->
+							<a href="https://gooseedu.com">
+								<img src="https://gooseedu.com/img/logo.png" title="">
+							</a>
+						</div>
+						<div class="header-icon">
+							<a href="javascript:;" onclick="sidebar_open('sidebar-search');">
+								<i class="fa fa-search"></i>
+							</a>
+						</div>
+						<div class="header-icon m_menu">
+							<a href="javascript:;" onclick="sidebar_open('sidebar-menu');"><i class="fa fa-bars"></i></a>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</header>
+
+		<div class="at-wrapper">
+			<!-- Menu -->
+			<nav class="at-menu">
+				<!-- PC Menu -->
+				<div class="pc-menu">
+					<!-- Menu Button & Right Icon Menu -->
+<!-- 					<div class="at-container">
+						<div class="nav-right nav-rw nav-height">
+							<ul>
+																	<li class="nav-show">
+										<a href="https://gooseedu.com/shop/cart.php" onclick="sidebar_open('sidebar-cart'); return false;" data-original-title="<nobr>쇼핑</nobr>" data-toggle="tooltip" data-placement="top" data-html="true">
+											<i class="fa fa-shopping-bag"></i>
+																					</a>
+									</li>
+													
+								<li>
+									<a href="javascript:;" onclick="sidebar_open('sidebar-search');" data-original-title="<nobr>검색</nobr>" data-toggle="tooltip" data-placement="top" data-html="true">
+										<i class="fa fa-search"></i>
+									</a>
+								</li>
+								<li class="menu-all-icon" data-original-title="<nobr>전체메뉴</nobr>" data-toggle="tooltip" data-placement="top" data-html="true">
+									<a href="javascript:;" data-toggle="collapse" data-target="#menu-all">
+										<i class="fa fa-th"></i>
+									</a>
+								</li>
+							</ul>
+							<div class="clearfix"></div>
+						</div>
+					</div> -->
+					
+
+
+	<div class="nav-visible">
+		<div class="at-container">
+			<div class="nav-top nav-float nav-slide">
+				<h1 class="logo">
+					<a href="https://gooseedu.com"><img src="https://gooseedu.com/img/logo.png" alt=""></a>
+				</h1>
+				<ul class="menu-ul">
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="https://gooseedu.com/bbs/page.php?hid=m01_01">
+							구스유학													</a>
+													<div class="sub-slide sub-1div">
+								<ul class="sub-1dul subm-w pull-left">
+																	
+									
+									<li class="sub-1dli off">
+										<a href="https://gooseedu.com/bbs/page.php?hid=m01_01" class="sub-1da">
+											구스유학소개																					</a>
+																			</li>
+																	
+									
+									<li class="sub-1dli off">
+										<a href="https://gooseedu.com/bbs/board.php?bo_table=m01_02" class="sub-1da">
+											구스 꿀팁																					</a>
+																			</li>
+																</ul>
+																<div class="clearfix"></div>
+							</div>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="https://gooseedu.com/bbs/board.php?bo_table=m02_01">
+							네트워킹													</a>
+													<div class="sub-slide sub-1div">
+								<ul class="sub-1dul subm-w pull-left">
+																	
+									
+									<li class="sub-1dli off">
+										<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01" class="sub-1da sub-icon">
+											네트워킹																					</a>
+																					<div class="sub-slide sub-2div">
+												<ul class="sub-2dul subm-w pull-left">					
+																									
+													
+													<li class="sub-2dli off">
+														<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&sca=%EC%87%BC%ED%95%91" class="sub-2da">
+															쇼핑																													</a>
+													</li>
+																									
+													
+													<li class="sub-2dli off">
+														<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&sca=%EB%82%A0%EC%94%A8" class="sub-2da">
+															날씨																													</a>
+													</li>
+																									
+													
+													<li class="sub-2dli off">
+														<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&sca=%EC%9D%B4%EB%B2%A4%ED%8A%B8" class="sub-2da">
+															이벤트																													</a>
+													</li>
+																									
+													
+													<li class="sub-2dli off">
+														<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&sca=%EB%A7%9B%EC%A7%91" class="sub-2da">
+															맛집																													</a>
+													</li>
+																									
+													
+													<li class="sub-2dli off">
+														<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&sca=%EA%B5%90%ED%86%B5" class="sub-2da">
+															교통																													</a>
+													</li>
+																									
+													
+													<li class="sub-2dli off">
+														<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&sca=SALE" class="sub-2da">
+															SALE																													</a>
+													</li>
+																									
+													
+													<li class="sub-2dli off">
+														<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&sca=%ED%92%8D%EA%B2%BD" class="sub-2da">
+															풍경																													</a>
+													</li>
+																									
+													
+													<li class="sub-2dli off">
+														<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&sca=%EA%B8%B0%ED%83%80" class="sub-2da">
+															기타																													</a>
+													</li>
+																								</ul>
+																								<div class="clearfix"></div>
+											</div>
+																			</li>
+																</ul>
+																<div class="clearfix"></div>
+							</div>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="https://gooseedu.com/bbs/board.php?bo_table=m03_01">
+							학교정보													</a>
+													<div class="sub-slide sub-1div">
+								<ul class="sub-1dul subm-w pull-left">
+																	
+									
+									<li class="sub-1dli off">
+										<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01" class="sub-1da">
+											학교정보																					</a>
+																			</li>
+																	
+									
+									<li class="sub-1dli off">
+										<a href="/bbs/write.php?bo_table=m03_02" class="sub-1da">
+											학교신청																					</a>
+																			</li>
+																</ul>
+																<div class="clearfix"></div>
+							</div>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="https://gooseedu.com/bbs/page.php?hid=m04_01">
+							유학 서비스													</a>
+													<div class="sub-slide sub-1div">
+								<ul class="sub-1dul subm-w pull-left">
+																	
+									
+									<li class="sub-1dli off">
+										<a href="https://gooseedu.com/bbs/page.php?hid=m04_01" class="sub-1da">
+											홈스테이																					</a>
+																			</li>
+																	
+									
+									<li class="sub-1dli off">
+										<a href="https://gooseedu.com/bbs/page.php?hid=m04_02" class="sub-1da">
+											공항라이드																					</a>
+																			</li>
+																</ul>
+																<div class="clearfix"></div>
+							</div>
+											</li>
+									<li class="menu-li off">
+						<a class="menu-a nav-height" href="https://gooseedu.com/bbs/board.php?bo_table=m05_01">
+							고객센터													</a>
+													<div class="sub-slide sub-1div">
+								<ul class="sub-1dul subm-w pull-left">
+																	
+									
+									<li class="sub-1dli off">
+										<a href="https://gooseedu.com/bbs/board.php?bo_table=m05_01" class="sub-1da">
+											공지사항																					</a>
+																			</li>
+																	
+									
+									<li class="sub-1dli off">
+										<a href="https://gooseedu.com/bbs/board.php?bo_table=m05_02" class="sub-1da">
+											유학상담																					</a>
+																			</li>
+																</ul>
+																<div class="clearfix"></div>
+							</div>
+											</li>
+									<li class="menu-li"><a href="https://gooseedu.com/bbs/board.php?bo_table=m05_02" class="edu_menu nav-height"><img src="https://gooseedu.com/img/edu_menu.jpg" alt=""></a></li>
+				</ul>
+			</div><!-- .nav-top -->
+		</div>	<!-- .nav-container -->
+	</div><!-- .nav-visible -->
+
+					<div class="clearfix"></div>
+					<div class="nav-back"></div>
+				</div><!-- .pc-menu -->
+
+				<!-- PC All Menu -->
+				<div class="pc-menu-all">
+					<div id="menu-all" class="collapse">
+						<div class="at-container table-responsive">
+							<table class="table">
+							<tr>
+															<td class="off">
+									<a class="menu-a" href="https://gooseedu.com/bbs/page.php?hid=m01_01">
+										구스유학																			</a>
+																			<div class="sub-1div">
+											<ul class="sub-1dul">
+											
+												
+												<li class="sub-1dli off">
+													<a href="https://gooseedu.com/bbs/page.php?hid=m01_01" class="sub-1da">
+														구스유학소개																											</a>
+												</li>
+											
+												
+												<li class="sub-1dli off">
+													<a href="https://gooseedu.com/bbs/board.php?bo_table=m01_02" class="sub-1da">
+														구스 꿀팁																											</a>
+												</li>
+																						</ul>
+										</div>
+																	</td>
+															<td class="off">
+									<a class="menu-a" href="https://gooseedu.com/bbs/board.php?bo_table=m02_01">
+										네트워킹																			</a>
+																			<div class="sub-1div">
+											<ul class="sub-1dul">
+											
+												
+												<li class="sub-1dli off">
+													<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01" class="sub-1da sub-icon">
+														네트워킹																											</a>
+												</li>
+																						</ul>
+										</div>
+																	</td>
+															<td class="off">
+									<a class="menu-a" href="https://gooseedu.com/bbs/board.php?bo_table=m03_01">
+										학교정보																			</a>
+																			<div class="sub-1div">
+											<ul class="sub-1dul">
+											
+												
+												<li class="sub-1dli off">
+													<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01" class="sub-1da">
+														학교정보																											</a>
+												</li>
+											
+												
+												<li class="sub-1dli off">
+													<a href="/bbs/write.php?bo_table=m03_02" class="sub-1da">
+														학교신청																											</a>
+												</li>
+																						</ul>
+										</div>
+																	</td>
+															<td class="off">
+									<a class="menu-a" href="https://gooseedu.com/bbs/page.php?hid=m04_01">
+										유학 서비스																			</a>
+																			<div class="sub-1div">
+											<ul class="sub-1dul">
+											
+												
+												<li class="sub-1dli off">
+													<a href="https://gooseedu.com/bbs/page.php?hid=m04_01" class="sub-1da">
+														홈스테이																											</a>
+												</li>
+											
+												
+												<li class="sub-1dli off">
+													<a href="https://gooseedu.com/bbs/page.php?hid=m04_02" class="sub-1da">
+														공항라이드																											</a>
+												</li>
+																						</ul>
+										</div>
+																	</td>
+															<td class="off">
+									<a class="menu-a" href="https://gooseedu.com/bbs/board.php?bo_table=m05_01">
+										고객센터																			</a>
+																			<div class="sub-1div">
+											<ul class="sub-1dul">
+											
+												
+												<li class="sub-1dli off">
+													<a href="https://gooseedu.com/bbs/board.php?bo_table=m05_01" class="sub-1da">
+														공지사항																											</a>
+												</li>
+											
+												
+												<li class="sub-1dli off">
+													<a href="https://gooseedu.com/bbs/board.php?bo_table=m05_02" class="sub-1da">
+														유학상담																											</a>
+												</li>
+																						</ul>
+										</div>
+																	</td>
+														</tr>
+							</table>
+							<div class="menu-all-btn">
+								<div class="btn-group">
+									<a class="btn btn-lightgray" href="https://gooseedu.com"><i class="fa fa-home"></i></a>
+									<a href="javascript:;" class="btn btn-lightgray" data-toggle="collapse" data-target="#menu-all"><i class="fa fa-times"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- .pc-menu-all -->
+
+				<!-- Mobile Menu -->
+				<div class="m-menu hidden">
+					<div class="m-wrap">
+	<div class="at-container">
+		<div class="m-table en">
+			<div class="m-icon">
+				<a href="javascript:;" onclick="sidebar_open('sidebar-menu');"><i class="fa fa-bars"></i></a>
+			</div>
+							<div class="m-icon">
+					<a href="https://gooseedu.com/?ci=1">
+													<i class="fa fa-commenting"></i>
+							<span class="label bg-blue">BBS</span>
+											</a>
+				</div>
+						<div class="m-list">
+				<div class="m-nav" id="mobile_nav">
+					<ul class="clearfix">
+					<li>
+						<a href="https://gooseedu.com">메인</a>
+					</li>
+											<li>
+							<a href="https://gooseedu.com/bbs/page.php?hid=m01_01">
+								구스유학															</a>
+						</li>
+											<li>
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01">
+								네트워킹															</a>
+						</li>
+											<li>
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01">
+								학교정보															</a>
+						</li>
+											<li>
+							<a href="https://gooseedu.com/bbs/page.php?hid=m04_01">
+								유학 서비스															</a>
+						</li>
+											<li>
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m05_01">
+								고객센터															</a>
+						</li>
+										</ul>
+				</div>
+			</div>
+							<div class="m-icon">
+					<a href="https://gooseedu.com/shop/cart.php" onclick="sidebar_open('sidebar-cart'); return false;"> 
+						<i class="fa fa-shopping-bag"></i>
+											</a>
+				</div>
+						<div class="m-icon">
+				<a href="javascript:;" onclick="sidebar_open('sidebar-response');">
+					<i class="fa fa-bell"></i>
+					<span class="label bg-orangered en" style="display:none;">
+						<span class="msgCount">0</span>
+					</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="clearfix"></div>
+
+				</div><!-- .m-menu -->
+			</nav><!-- .at-menu -->
+
+			<div class="clearfix"></div>
+
+			
+<!-- 			 -->
+						<div class="at-body">
+				<div class="main_wrap">
+	<div class="con01">
+		<div class="hidden-xs hidden-sm"><style>
+	#iklfsgmrqjutpohn .item { background-size:cover; background-position:center center; background-repeat:no-repeat; }
+	#iklfsgmrqjutpohn .img-wrap { padding-bottom:36.995%; }
+	#iklfsgmrqjutpohn .tab-indicators { position:absolute; left:0; bottom:0; width:100%; }
+	#iklfsgmrqjutpohn .nav a { background: rgba(255,255,255, 0.9); color:#000; border-radius: 0px; margin:0px; }
+	#iklfsgmrqjutpohn .nav a:hover, #iklfsgmrqjutpohn .nav a:focus,
+	#iklfsgmrqjutpohn .nav .active a { background: rgba(0,0,0, 0.6); color:#fff; }
+											.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next{
+		width:83px !important;
+		height:83px !important;
+	}
+	.carousel-indicators .active{
+		background:#fff !important;
+	}
+	.carousel_1 li{
+		width:12px !important;
+		height:12px !important;
+		margin:0 !important;
+		margin-right:3px !important;
+	}
+	@media (max-width:767px){
+		.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next{
+			width:50px !important;
+			height:50px !important;
+			background-size: contain !important;
+		}	
+	}
+</style>
+<div id="iklfsgmrqjutpohn" class="carousel_1 swipe-carousel carousel slide" data-ride="carousel" data-interval="3000">
+	<div class="carousel-inner is-round-title">
+					<div class="item active" style="background-image: url('http://fs181221.dothome.co.kr/data/apms/background/w_01.jpg');">
+				<a href="/bbs/page.php?hid=m01_01">
+					<div class="img-wrap">
+						<div class="img-item">
+																				</div>
+					</div>
+				</a>
+			</div>
+			</div>
+			<!-- Controls -->
+		<a class="left carousel-control is-round-title" href="#iklfsgmrqjutpohn" role="button" data-slide="prev">
+						   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="background:url(/img/l_bt.png)no-repeat  0 0"></span>
+						<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control is-round-title" href="#iklfsgmrqjutpohn" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="background:url(/img/r_bt.png)no-repeat 0 0"></span>
+						<span class="sr-only">Next</span>
+		</a>
+		<!-- Indicators -->
+	</div>
+</div>
+		<div class="hidden-lg hidden-md"><style>
+	#rnmflgtcauqvedijkhbsop .item { background-size:cover; background-position:center center; background-repeat:no-repeat; }
+	#rnmflgtcauqvedijkhbsop .img-wrap { padding-bottom:134.71%; }
+	#rnmflgtcauqvedijkhbsop .tab-indicators { position:absolute; left:0; bottom:0; width:100%; }
+	#rnmflgtcauqvedijkhbsop .nav a { background: rgba(255,255,255, 0.9); color:#000; border-radius: 0px; margin:0px; }
+	#rnmflgtcauqvedijkhbsop .nav a:hover, #rnmflgtcauqvedijkhbsop .nav a:focus,
+	#rnmflgtcauqvedijkhbsop .nav .active a { background: rgba(0,0,0, 0.6); color:#fff; }
+											.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next{
+		width:83px !important;
+		height:83px !important;
+	}
+	.carousel-indicators .active{
+		background:#fff !important;
+	}
+	.carousel_1 li{
+		width:12px !important;
+		height:12px !important;
+		margin:0 !important;
+		margin-right:3px !important;
+	}
+	@media (max-width:767px){
+		.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next{
+			width:50px !important;
+			height:50px !important;
+			background-size: contain !important;
+		}	
+	}
+</style>
+<div id="rnmflgtcauqvedijkhbsop" class="carousel_1 swipe-carousel carousel slide" data-ride="carousel" data-interval="3000">
+	<div class="carousel-inner is-round-title">
+					<div class="item active" style="background-image: url('http://fs181221.dothome.co.kr/data/apms/background/m_01.jpg');">
+				<a href="javascript:;">
+					<div class="img-wrap">
+						<div class="img-item">
+																				</div>
+					</div>
+				</a>
+			</div>
+			</div>
+			<!-- Controls -->
+		<a class="left carousel-control is-round-title" href="#rnmflgtcauqvedijkhbsop" role="button" data-slide="prev">
+						   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="background:url(/img/l_bt.png)no-repeat  0 0"></span>
+						<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control is-round-title" href="#rnmflgtcauqvedijkhbsop" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="background:url(/img/r_bt.png)no-repeat 0 0"></span>
+						<span class="sr-only">Next</span>
+		</a>
+		<!-- Indicators -->
+	</div>
+</div>
+		<div class="school_info">
+			<div class="real_info">
+				<h2>학교정보 <a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01"><img src="https://gooseedu.com/img/plus_bt01.jpg" alt=""></a></h2>
+				<style>
+	#ofrpqlkwjtiumghensv .owl-container { margin-right:-15px;}
+	#ofrpqlkwjtiumghensv .owl-next { right:15px; }
+	#ofrpqlkwjtiumghensv .owl-hide { margin-right:15px; }
+	#ofrpqlkwjtiumghensv .owl-hide .item { width:100%; } 
+	#ofrpqlkwjtiumghensv .item-list { margin-right:15px; }
+	#ofrpqlkwjtiumghensv .post-subject { height:84px; }
+	#ofrpqlkwjtiumghensv .img-wrap { padding-bottom:56.25%; }
+		@media (max-width:1199px) { 
+		.responsive #ofrpqlkwjtiumghensv .owl-container { margin-right:-15px;}
+		.responsive #ofrpqlkwjtiumghensv .owl-next { right:15px; }
+		.responsive #ofrpqlkwjtiumghensv .owl-hide { margin-right:15px; }
+		.responsive #ofrpqlkwjtiumghensv .owl-hide .item { width:100%; }
+		.responsive #ofrpqlkwjtiumghensv .item-list { margin-right:15px; }
+	}
+	@media (max-width:991px) { 
+		.responsive #ofrpqlkwjtiumghensv .owl-container { margin-right:-15px;}
+		.responsive #ofrpqlkwjtiumghensv .owl-next { right:15px; }
+		.responsive #ofrpqlkwjtiumghensv .owl-hide { margin-right:15px; }
+		.responsive #ofrpqlkwjtiumghensv .owl-hide .item { width:100%; } 
+		.responsive #ofrpqlkwjtiumghensv .item-list { margin-right:15px; }
+	}
+	@media (max-width:767px) { 
+		.responsive #ofrpqlkwjtiumghensv .owl-container { margin-right:-15px;}
+		.responsive #ofrpqlkwjtiumghensv .owl-next { right:15px; }
+		.responsive #ofrpqlkwjtiumghensv .owl-hide { margin-right:15px; }
+		.responsive #ofrpqlkwjtiumghensv .owl-hide .item { width:100%; } 
+		.responsive #ofrpqlkwjtiumghensv .item-list { margin-right:15px; }
+	}
+	@media (max-width:480px) { 
+		.responsive #ofrpqlkwjtiumghensv .owl-container { margin-right:-15px;}
+		.responsive #ofrpqlkwjtiumghensv .owl-next { right:15px; }
+		.responsive #ofrpqlkwjtiumghensv .owl-hide { margin-right:15px; }
+		.responsive #ofrpqlkwjtiumghensv .owl-hide .item { width:100%; } 
+		.responsive #ofrpqlkwjtiumghensv .item-list { margin-right:15px; }
+	}
+	</style>
+<div id="ofrpqlkwjtiumghensv" class="basic-post-slider">
+		<div class="owl-show">
+		<div class="owl-container">
+			<div class="owl-carousel">
+							<div class="item">
+					<div class="item-list">
+						<div class="post-image">
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01&amp;wr_id=19">
+								<div class="img-wrap">
+																		<!--  -->
+																		<div class="img-item">
+										<img src="https://gooseedu.com/data/file/m03_01/643318286_FJwZWadr_80c2bd93bca11f3851065b838fba3fa007edfdb8.png" alt="">
+									</div>
+								</div>
+						</a>
+													</div>
+						<div class="post-content">
+							<div class="post-subject">
+								<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01&amp;wr_id=19">
+																		<span class="info_wtit">VGC International College</span>
+									<!-- 										<div class="post-text">
+																					</div>
+									 -->
+									<div class="info_row">
+										<span>· &nbsp; ESL Institution</span>
+										<span>· &nbsp; Vancouver</span>
+									</div>
+								</a>
+							</div>
+							<div class="post-text post-ko txt-short ellipsis hidden">
+								최고관리자																															</div>
+						</div>
+					</div>
+				</div>
+							<div class="item">
+					<div class="item-list">
+						<div class="post-image">
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01&amp;wr_id=18">
+								<div class="img-wrap">
+																		<!--  -->
+																		<div class="img-item">
+										<img src="https://gooseedu.com/data/file/m03_01/643318286_0VOmxsjf_9543fc13de864fcb50b1e2f608b8cb4e11cbd05d.png" alt="">
+									</div>
+								</div>
+						</a>
+													</div>
+						<div class="post-content">
+							<div class="post-subject">
+								<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01&amp;wr_id=18">
+																		<span class="info_wtit">Language Across Borders: LAB</span>
+									<!-- 										<div class="post-text">
+																					</div>
+									 -->
+									<div class="info_row">
+										<span>· &nbsp; ESL Institution</span>
+										<span>· &nbsp; Vancouver</span>
+									</div>
+								</a>
+							</div>
+							<div class="post-text post-ko txt-short ellipsis hidden">
+								최고관리자																															</div>
+						</div>
+					</div>
+				</div>
+						</div>
+		</div>
+	</div>
+	<div class="owl-hide">
+		<div class="item">
+			<div class="item-list">
+				<div class="post-image">
+					<div class="img-wrap">
+						<div class="img-item">&nbsp;</div>
+					</div>
+									</div>
+				<div class="post-content">
+					<div class="post-subject">&nbsp;</div>
+					<div class="post-text post-ko txt-short ellipsis">&nbsp;</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+	$('#ofrpqlkwjtiumghensv .owl-carousel').owlCarousel({
+							autoPlay:5000,
+								items:1,
+		itemsDesktop:[1199,1],
+		itemsDesktopSmall:[991,1],
+		itemsTablet:[767,1],
+		itemsMobile:[480,1],
+		pagination:true,
+				navigation:false,
+				loop:true,
+		afterInit : function() {
+			$('#ofrpqlkwjtiumghensv .owl-hide').hide();
+		}
+	});
+});
+</script>			</div>
+			<div class="info_bg"><img src="https://gooseedu.com/img/sinfo_bg.png" alt=""></div>
+		</div>
+	</div>
+	<div class="con02 at-container">
+		<div class="con_l">
+			<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01" data-on="https://gooseedu.com/img/con02_01_on.jpg" data-off="https://gooseedu.com/img/con02_01_off.jpg"><img src="https://gooseedu.com/img/con02_01_off.jpg" alt="" class="pc-img"></a>
+		</div>
+		<div class="con_r">
+			<div class="con_rl">
+				<a href="https://gooseedu.com/bbs/write.php?bo_table=m03_02" data-on="https://gooseedu.com/img/con02_02_on.jpg" data-off="https://gooseedu.com/img/con02_02_off.jpg"><img src="https://gooseedu.com/img/con02_02_off.jpg" alt="" class="pc-img"></a>
+			</div>
+			<div class="con_rr">
+				<div class="con_rt">
+					<a href="https://gooseedu.com/bbs/page.php?hid=m04_01" data-on="https://gooseedu.com/img/con02_03_on.jpg" data-off="https://gooseedu.com/img/con02_03_off.jpg"><img src="https://gooseedu.com/img/con02_03_off.jpg" alt="" class="pc-img"></a>
+				</div>
+				<div class="con_rb">
+					<a href="https://gooseedu.com/bbs/page.php?hid=m04_02" data-on="https://gooseedu.com/img/con02_04_on.jpg" data-off="https://gooseedu.com/img/con02_04_off.jpg"><img src="https://gooseedu.com/img/con02_04_off.jpg" alt="" class="pc-img"></a>
+				</div>
+			</div>
+		</div>
+		<img src="https://gooseedu.com/img/mcon02.jpg" alt="" class="m-img" usemap="#mcon02">
+		<map name="mcon02">
+			<area shape="rect" coords="29,224,179,272" href="https://gooseedu.com/bbs/board.php?bo_table=m03_01"" alt="">
+			<area shape="rect" coords="31,759,180,809" href="https://gooseedu.com/bbs/write.php?bo_table=m03_02" alt="">
+			<area shape="rect" coords="373,756,522,808" href="https://gooseedu.com/bbs/page.php?hid=m04_01" alt="">
+			<area shape="rect" coords="31,1258,183,1304" href="https://gooseedu.com/bbs/page.php?hid=m04_02" alt="">
+		</map>
+	</div>	
+	<div class="con03">
+		<div class="at-container real_txt">
+			<div class="con_t">
+				<h2>Networking</h2>
+				<p>밴쿠버의 실시간 유용한 정보를 나누는 공간</p>
+				<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01" class="more_bt"><img src="https://gooseedu.com/img/plus_bt.png" alt=""></a>
+			</div>
+			<div class="con_b">
+				<style>
+	#rnlpwojuvigmkbetqschfd .owl-container { margin-right:-12px;}
+	#rnlpwojuvigmkbetqschfd .owl-next { right:12px; }
+	#rnlpwojuvigmkbetqschfd .owl-hide { margin-right:36px; }
+	#rnlpwojuvigmkbetqschfd .owl-hide .item { width:25%; } 
+	#rnlpwojuvigmkbetqschfd .item-list { margin-right:12px; }
+	#rnlpwojuvigmkbetqschfd .post-subject { height:20px; }
+	#rnlpwojuvigmkbetqschfd .img-wrap { padding-bottom:101.77%; }
+		@media (max-width:1199px) { 
+		.responsive #rnlpwojuvigmkbetqschfd .owl-container { margin-right:-12px;}
+		.responsive #rnlpwojuvigmkbetqschfd .owl-next { right:12px; }
+		.responsive #rnlpwojuvigmkbetqschfd .owl-hide { margin-right:36px; }
+		.responsive #rnlpwojuvigmkbetqschfd .owl-hide .item { width:25%; }
+		.responsive #rnlpwojuvigmkbetqschfd .item-list { margin-right:12px; }
+	}
+	@media (max-width:991px) { 
+		.responsive #rnlpwojuvigmkbetqschfd .owl-container { margin-right:-12px;}
+		.responsive #rnlpwojuvigmkbetqschfd .owl-next { right:12px; }
+		.responsive #rnlpwojuvigmkbetqschfd .owl-hide { margin-right:24px; }
+		.responsive #rnlpwojuvigmkbetqschfd .owl-hide .item { width:33.33%; } 
+		.responsive #rnlpwojuvigmkbetqschfd .item-list { margin-right:12px; }
+	}
+	@media (max-width:767px) { 
+		.responsive #rnlpwojuvigmkbetqschfd .owl-container { margin-right:-12px;}
+		.responsive #rnlpwojuvigmkbetqschfd .owl-next { right:12px; }
+		.responsive #rnlpwojuvigmkbetqschfd .owl-hide { margin-right:12px; }
+		.responsive #rnlpwojuvigmkbetqschfd .owl-hide .item { width:50%; } 
+		.responsive #rnlpwojuvigmkbetqschfd .item-list { margin-right:12px; }
+	}
+	@media (max-width:480px) { 
+		.responsive #rnlpwojuvigmkbetqschfd .owl-container { margin-right:-12px;}
+		.responsive #rnlpwojuvigmkbetqschfd .owl-next { right:12px; }
+		.responsive #rnlpwojuvigmkbetqschfd .owl-hide { margin-right:12px; }
+		.responsive #rnlpwojuvigmkbetqschfd .owl-hide .item { width:50%; } 
+		.responsive #rnlpwojuvigmkbetqschfd .item-list { margin-right:12px; }
+	}
+	</style>
+<div id="rnlpwojuvigmkbetqschfd" class="basic-post-slider">
+		<div class="owl-show">
+		<div class="owl-container">
+			<div class="owl-carousel">
+							<div class="item">
+					<div class="item-list">
+						<div class="post-image">
+						<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&amp;wr_id=34">
+								<div class="img-wrap">
+																		<!--  -->
+																		<div class="img-item">
+										<img src="https://gooseedu.com/data/file/m02_01/thumb-2919655616_Y4WrbPxp_61cb5518540dad6db53cd54c36ec8e933ca690f7_283x288.jpg" alt="">
+									</div>
+								</div>
+													</div>
+						<div class="post-content hidden">
+							<div class="post-subject">
+								<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&amp;wr_id=34">
+																		밴쿠버 수시 맛집 - Nanaimo Sushi																	</a>
+							</div>
+							<div class="post-text post-ko txt-short ellipsis no-margin hidden">
+								최고관리자																															</div>
+						</div>
+					</div>
+				</div>
+							<div class="item">
+					<div class="item-list">
+						<div class="post-image">
+						<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&amp;wr_id=33">
+								<div class="img-wrap">
+																		<!--  -->
+																		<div class="img-item">
+										<img src="https://gooseedu.com/data/file/m02_01/thumb-2919655616_CBAr7uG6_6b5db15acd1fde70c69c532cf137351e2468feb1_283x288.jpg" alt="">
+									</div>
+								</div>
+													</div>
+						<div class="post-content hidden">
+							<div class="post-subject">
+								<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&amp;wr_id=33">
+																		밴쿠버 캠핑 핫플 - Paradise Valley Campground																	</a>
+							</div>
+							<div class="post-text post-ko txt-short ellipsis no-margin hidden">
+								최고관리자																															</div>
+						</div>
+					</div>
+				</div>
+							<div class="item">
+					<div class="item-list">
+						<div class="post-image">
+						<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&amp;wr_id=32">
+								<div class="img-wrap">
+																		<!--  -->
+																		<div class="img-item">
+										<img src="https://gooseedu.com/data/file/m02_01/thumb-643318286_ydhXINOi_408f5fdb2cf23cfa89626254c8bf675a784b19cc_283x288.jpg" alt="">
+									</div>
+								</div>
+													</div>
+						<div class="post-content hidden">
+							<div class="post-subject">
+								<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&amp;wr_id=32">
+																		Bubble Tea Shop																	</a>
+							</div>
+							<div class="post-text post-ko txt-short ellipsis no-margin hidden">
+								최고관리자																															</div>
+						</div>
+					</div>
+				</div>
+							<div class="item">
+					<div class="item-list">
+						<div class="post-image">
+						<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&amp;wr_id=31">
+								<div class="img-wrap">
+																		<!--  -->
+																		<div class="img-item">
+										<img src="https://gooseedu.com/data/file/m02_01/thumb-643318286_VJOTHgMi_d12784f59d57b78a947c1584875ada7ecdcf3c5c_283x288.jpg" alt="">
+									</div>
+								</div>
+													</div>
+						<div class="post-content hidden">
+							<div class="post-subject">
+								<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01&amp;wr_id=31">
+																		Xing Fu Tang																	</a>
+							</div>
+							<div class="post-text post-ko txt-short ellipsis no-margin hidden">
+								최고관리자																															</div>
+						</div>
+					</div>
+				</div>
+						</div>
+		</div>
+	</div>
+	<div class="owl-hide">
+		<div class="item">
+			<div class="item-list">
+				<div class="post-image">
+					<div class="img-wrap">
+						<div class="img-item">&nbsp;</div>
+					</div>
+									</div>
+				<div class="post-content">
+					<div class="post-subject">&nbsp;</div>
+					<div class="post-text post-ko txt-short ellipsis no-margin">&nbsp;</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+$(document).ready(function(){
+	$('#rnlpwojuvigmkbetqschfd .owl-carousel').owlCarousel({
+							autoPlay:3000,
+								items:4,
+		itemsDesktop:[1199,4],
+		itemsDesktopSmall:[991,3],
+		itemsTablet:[767,2],
+		itemsMobile:[480,2],
+		pagination:false,
+		 
+		navigationText:['<img src="https://gooseedu.com/img/sl_bt.png">','<img src="https://gooseedu.com/img/sr_bt.png">'],
+		navigation:true,
+				loop:true,
+		afterInit : function() {
+			$('#rnlpwojuvigmkbetqschfd .owl-hide').hide();
+		}
+	});
+});
+</script>			</div>
+		</div>
+	</div>
+	<div class="con04">
+		<div class="con_l">
+			<div class="con_t">
+				<h2>학교정보</h2>	
+				<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01" class="more_bt"><img src="https://gooseedu.com/img/plus_bt02.jpg" alt=""></a>
+			</div>
+			<div class="con_b">
+				<style>
+	#truqovflwpsjmigxkhn .post-wrap { margin-right:0px; margin-bottom:-25px; }
+	#truqovflwpsjmigxkhn .post-row { width:100%; }
+	#truqovflwpsjmigxkhn .post-list { margin-right:0px; margin-bottom:25px; }
+		#truqovflwpsjmigxkhn .post-subject { height:82px; }
+		#truqovflwpsjmigxkhn .img-wrap { padding-bottom:71.05%; }
+		@media (max-width:1199px) { 
+		.responsive #truqovflwpsjmigxkhn .post-wrap { margin-right:0px; margin-bottom:-25px; }
+		.responsive #truqovflwpsjmigxkhn .post-row { width:100%; } 
+		.responsive #truqovflwpsjmigxkhn .post-list { margin-right:0px; margin-bottom:25px; }
+	}
+	@media (max-width:991px) { 
+		.responsive #truqovflwpsjmigxkhn .post-wrap { margin-right:0px; margin-bottom:-25px; }
+		.responsive #truqovflwpsjmigxkhn .post-row { width:100%; } 
+		.responsive #truqovflwpsjmigxkhn .post-list { margin-right:0px; margin-bottom:25px; }
+	}
+	@media (max-width:767px) { 
+		.responsive #truqovflwpsjmigxkhn .post-wrap { margin-right:0px; margin-bottom:-25px; }
+		.responsive #truqovflwpsjmigxkhn .post-row { width:100%; } 
+		.responsive #truqovflwpsjmigxkhn .post-list { margin-right:0px; margin-bottom:25px; }
+		#truqovflwpsjmigxkhn .post-subject { height:60px; }
+	}
+	@media (max-width:480px) { 
+		.responsive #truqovflwpsjmigxkhn .post-wrap { margin-right:0px; margin-bottom:-25px; }
+		.responsive #truqovflwpsjmigxkhn .post-row { width:100%; } 
+		.responsive #truqovflwpsjmigxkhn .post-list { margin-right:0px; margin-bottom:25px; }
+	}
+	</style>
+<div id="truqovflwpsjmigxkhn" class="miso-post-gallery">
+	<div class="post-wrap">
+			<div class="post-row">
+		<div class="post-list post-col">
+			<div class="post-image">
+				<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01&amp;wr_id=22">
+					<div class="img-wrap is-round-post-img">
+						<div class="img-item">
+														<!--  -->
+																					<img src="https://gooseedu.com/data/file/m03_01/643318286_1fRTZOz6_dc1f626815427c94079076f6c9e8b8047d70a753.jpg" alt="" class="wr-img" style="width:190px; height:135px">
+													</div>
+					</div>
+				</a>
+							</div>
+												<div class="post-content">
+						<div class="post-subject">
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01&amp;wr_id=22">
+																<div class="con_tit">iTTTi</div>
+								<div class="text-muted">
+																			- 작고 분위기 좋은 학교- 밴쿠버 다운타운 번화가에 위치- 회화 능력 향상을 위한 코스- 학생 개개인에 맞는 세분화 된 학습 프로그램- 비교적…																	</div>
+							</a>
+						</div>
+						<div class="post-text post-ko txt-short ellipsis">
+																													<!-- <span class="post-sp">|</span> -->
+								<span class="txt-normal">
+									2019-03-20								</span>
+																				</div>
+					</div>
+									</div>
+	</div>
+	<div class="post-row">
+		<div class="post-list post-col">
+			<div class="post-image">
+				<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01&amp;wr_id=21">
+					<div class="img-wrap is-round-post-img">
+						<div class="img-item">
+														<!--  -->
+																					<img src="https://gooseedu.com/data/file/m03_01/643318286_rWCPoe2b_b73c26645a2423027ce454bad53c626ba551d40f.png" alt="" class="wr-img" style="width:190px; height:135px">
+													</div>
+					</div>
+				</a>
+							</div>
+												<div class="post-content">
+						<div class="post-subject">
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01&amp;wr_id=21">
+																<div class="con_tit">Canadian College</div>
+								<div class="text-muted">
+																			- 편리한 위치- 코업 프로그램- 기숙사와 레스토랑 운영- 인턴쉽 서비스																	</div>
+							</a>
+						</div>
+						<div class="post-text post-ko txt-short ellipsis">
+																													<!-- <span class="post-sp">|</span> -->
+								<span class="txt-normal">
+									2019-03-19								</span>
+																				</div>
+					</div>
+									</div>
+	</div>
+	<div class="post-row">
+		<div class="post-list post-col">
+			<div class="post-image">
+				<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01&amp;wr_id=20">
+					<div class="img-wrap is-round-post-img">
+						<div class="img-item">
+														<!--  -->
+																					<img src="https://gooseedu.com/data/file/m03_01/643318286_pnTMAq4w_54ae6ae567fab4ace2b71e9a84c87a004246b72c.jpg" alt="" class="wr-img" style="width:190px; height:135px">
+													</div>
+					</div>
+				</a>
+							</div>
+												<div class="post-content">
+						<div class="post-subject">
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01&amp;wr_id=20">
+																<div class="con_tit">Canadian College of English Language: CCEL</div>
+								<div class="text-muted">
+																			- 국제적인 환경- 회화 중심의 교재와 커리큘럼- 학교 소속 기숙사와 레스토랑- 다양한 액티비티- Canadian College의 부속 어학원																	</div>
+							</a>
+						</div>
+						<div class="post-text post-ko txt-short ellipsis">
+																													<!-- <span class="post-sp">|</span> -->
+								<span class="txt-normal">
+									2019-03-16								</span>
+																				</div>
+					</div>
+									</div>
+	</div>
+	</div>
+	<div class="clearfix"></div>
+	</div>
+
+
+			</div>	
+		</div>
+		<div class="con_r">
+			<div class="con_t">
+				<h2>GOOSE 꿀팁</h2>	
+				<a href="https://gooseedu.com/bbs/board.php?bo_table=m01_02" class="more_bt"><img src="https://gooseedu.com/img/plus_bt03.jpg" alt=""></a>
+			</div>
+			<div class="con_b">
+				<style>
+	#goxtewqvcksfzdbipurnmjhly .post-wrap { margin-right:0px; margin-bottom:-25px; }
+	#goxtewqvcksfzdbipurnmjhly .post-row { width:100%; }
+	#goxtewqvcksfzdbipurnmjhly .post-list { margin-right:0px; margin-bottom:25px; }
+		#goxtewqvcksfzdbipurnmjhly .post-subject { height:82px; }
+		#goxtewqvcksfzdbipurnmjhly .img-wrap { padding-bottom:71.05%; }
+		@media (max-width:1199px) { 
+		.responsive #goxtewqvcksfzdbipurnmjhly .post-wrap { margin-right:0px; margin-bottom:-25px; }
+		.responsive #goxtewqvcksfzdbipurnmjhly .post-row { width:100%; } 
+		.responsive #goxtewqvcksfzdbipurnmjhly .post-list { margin-right:0px; margin-bottom:25px; }
+	}
+	@media (max-width:991px) { 
+		.responsive #goxtewqvcksfzdbipurnmjhly .post-wrap { margin-right:0px; margin-bottom:-25px; }
+		.responsive #goxtewqvcksfzdbipurnmjhly .post-row { width:100%; } 
+		.responsive #goxtewqvcksfzdbipurnmjhly .post-list { margin-right:0px; margin-bottom:25px; }
+	}
+	@media (max-width:767px) { 
+		.responsive #goxtewqvcksfzdbipurnmjhly .post-wrap { margin-right:0px; margin-bottom:-25px; }
+		.responsive #goxtewqvcksfzdbipurnmjhly .post-row { width:100%; } 
+		.responsive #goxtewqvcksfzdbipurnmjhly .post-list { margin-right:0px; margin-bottom:25px; }
+		#goxtewqvcksfzdbipurnmjhly .post-subject { height:60px; }
+	}
+	@media (max-width:480px) { 
+		.responsive #goxtewqvcksfzdbipurnmjhly .post-wrap { margin-right:0px; margin-bottom:-25px; }
+		.responsive #goxtewqvcksfzdbipurnmjhly .post-row { width:100%; } 
+		.responsive #goxtewqvcksfzdbipurnmjhly .post-list { margin-right:0px; margin-bottom:25px; }
+	}
+	</style>
+<div id="goxtewqvcksfzdbipurnmjhly" class="miso-post-gallery">
+	<div class="post-wrap">
+			<div class="post-row">
+		<div class="post-list post-col">
+			<div class="post-image">
+				<a href="https://gooseedu.com/bbs/board.php?bo_table=m01_02&amp;wr_id=16">
+					<div class="img-wrap is-round-post-img">
+						<div class="img-item">
+														<!--  -->
+																					<img src="http://fs181221.dothome.co.kr/data/file/m01_02/8_copy_16_4_copy_8_2_copy_4_1_copy_2_2948936627_zlcboNC3_e1e0cdafaaf268f678768639069a77d6921aba1e.jpg" alt="" class="wr-img" style="width:190px; height:135px">
+													</div>
+					</div>
+				</a>
+							</div>
+												<div class="post-content">
+						<div class="post-subject">
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m01_02&amp;wr_id=16">
+																<div class="con_tit">[구스꿀띱] 게시글 제목입니다.</div>
+								<div class="text-muted">
+																			게시글 본문 세부 내용입니다...게시글 본문 세부 내용입니다...게시글 본문 세부 내용입니다...게시글 본문 세부 내용입니다...게시글 본문 세…									
+																	</div>
+							</a>
+						</div>
+						<div class="post-text post-ko txt-short ellipsis">
+																													<!-- <span class="post-sp">|</span> -->
+								<span class="txt-normal">
+									2018-12-31								</span>
+																				</div>
+					</div>
+									</div>
+	</div>
+	<div class="post-row">
+		<div class="post-list post-col">
+			<div class="post-image">
+				<a href="https://gooseedu.com/bbs/board.php?bo_table=m01_02&amp;wr_id=15">
+					<div class="img-wrap is-round-post-img">
+						<div class="img-item">
+														<!--  -->
+																					<img src="http://fs181221.dothome.co.kr/data/file/m01_02/7_copy_15_3_copy_7_1_copy_3_2948936627_zlcboNC3_e1e0cdafaaf268f678768639069a77d6921aba1e.jpg" alt="" class="wr-img" style="width:190px; height:135px">
+													</div>
+					</div>
+				</a>
+							</div>
+												<div class="post-content">
+						<div class="post-subject">
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m01_02&amp;wr_id=15">
+																<div class="con_tit">[구스꿀띱] 게시글 제목입니다.</div>
+								<div class="text-muted">
+																			게시글 본문 세부 내용입니다...게시글 본문 세부 내용입니다...게시글 본문 세부 내용입니다...게시글 본문 세부 내용입니다...게시글 본문 세…									
+																	</div>
+							</a>
+						</div>
+						<div class="post-text post-ko txt-short ellipsis">
+																													<!-- <span class="post-sp">|</span> -->
+								<span class="txt-normal">
+									2018-12-31								</span>
+																				</div>
+					</div>
+									</div>
+	</div>
+	<div class="post-row">
+		<div class="post-list post-col">
+			<div class="post-image">
+				<a href="https://gooseedu.com/bbs/board.php?bo_table=m01_02&amp;wr_id=14">
+					<div class="img-wrap is-round-post-img">
+						<div class="img-item">
+														<!--  -->
+																					<img src="http://www.gooseedu.com/data/file/m01_02/6_copy_14_2_copy_6_1_copy_2_2948936627_zlcboNC3_e1e0cdafaaf268f678768639069a77d6921aba1e.jpg" alt="" class="wr-img" style="width:190px; height:135px">
+													</div>
+					</div>
+				</a>
+							</div>
+												<div class="post-content">
+						<div class="post-subject">
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m01_02&amp;wr_id=14">
+																<div class="con_tit">[구스꿀띱] 게시글 제목입니다.</div>
+								<div class="text-muted">
+																			게시글 본문 세부 내용입니다...게시글 본문 세부 내용입니다...게시글 본문 세부 내용입니다...게시글 본문 세부 내용입니다...게시글 본문 세…									
+																	</div>
+							</a>
+						</div>
+						<div class="post-text post-ko txt-short ellipsis">
+																													<!-- <span class="post-sp">|</span> -->
+								<span class="txt-normal">
+									2018-12-31								</span>
+																				</div>
+					</div>
+									</div>
+	</div>
+	</div>
+	<div class="clearfix"></div>
+	</div>
+
+
+			</div>			
+		</div>
+	</div>
+</div>
+<script>
+	$(document).ready(function(){
+		$(".con02 a").on("mouseenter", function(){
+			fn_offImage();
+			$(this).find('img').attr('src',$(this).data("on"));						
+		});
+
+		$(".con02").on("mouseleave",function(){
+			fn_offImage();
+		});
+	});
+
+	function fn_offImage()
+	{
+		$(".con02 a").each(function(){
+			$(this).find('img').attr('src',$(this).data("off"));
+		});
+	}	
+
+	function fn_onImage()
+	{
+		$(".con02 a").each(function(){
+			$(this).find('img').attr('src',$(this).data("on"));
+		});
+	}
+</script><script src="https://gooseedu.com/js/sns.js"></script>
+											</div><!-- .at-body -->
+
+							<footer class="at-footer">
+					<nav class="at-links hidden">
+						<div class="at-container">
+							<ul class="pull-left">
+								<li><a href="https://gooseedu.com/bbs/page.php?hid=intro">사이트 소개</a></li>
+								<li><a href="https://gooseedu.com/bbs/page.php?hid=provision">이용약관</a></li>
+								<li><a href="https://gooseedu.com/bbs/page.php?hid=privacy">개인정보처리방침</a></li>
+								<li><a href="https://gooseedu.com/bbs/page.php?hid=noemail">이메일 무단수집거부</a></li>
+								<li><a href="https://gooseedu.com/bbs/page.php?hid=disclaimer">책임의 한계와 법적고지</a></li>
+							</ul>
+							<ul class="pull-right">
+								<li><a href="https://gooseedu.com/bbs/qalist.php">문의하기</a></li>
+							</ul>
+							<div class="clearfix"></div>
+						</div>
+					</nav>
+					<div class="at-infos">
+						<div class="at-container">
+															<div class="media">
+									
+									<div class="pull-right">
+										<!-- 하단 우측 아이콘 -->
+										<ul class="fsns">
+											<li><a href="https://www.instagram.com/gooseedu/" target="_blank"><img src="https://gooseedu.com/img/fsns_01.jpg" alt=""></a></li>
+											<li><a href="https://www.facebook.com/gooseedu" target="_blank"><img src="https://gooseedu.com/img/fsns_02.jpg" alt=""></a></li>
+											<li><a href="https://pf.kakao.com/_hNspC" target="_blank"><img src="https://gooseedu.com/img/fsns_03.jpg" alt=""></a></li>
+											<li><a href="https://blog.naver.com/gooseedu" target="_blank"><img src="https://gooseedu.com/img/fsns_04.jpg" alt=""></a></li>
+										</ul>
+										<div class="copyright hidden-xs hidden-sm">
+											COPYRIGHT <i class="fa fa-copyright"></i> Goose International ALL RLGHTS RESERVED
+										</div>
+									</div>
+									<div class="pull-left">
+										<!-- 하단 좌측 로고 -->
+										<img src="https://gooseedu.com/img/flogo.png" alt="">
+									</div>
+									<div class="media-body">
+										<ul class="flnb">
+											<li><a href="">구스유학 소개</a></li>
+											<li><a href="https://gooseedu.com/bbs/page.php?hid=privacy">개인정보 처리방침</a></li>
+										</ul>
+										<ul class="at-about">
+											<li>대표 : Jay Hyun</li>
+											<li>주소 : 경기도 용인시 수지구 수지로 487 (한국)</li>
+										</ul>
+										<ul class="at-about">
+											<li>대표번호 : 010-5344-6642 (한국)</li>
+											<li>사업자등록번호 : 680-87-01164</li>
+										</ul>
+										<div class="clearfix"></div>
+										<div class="copyright hidden-lg hidden-md">
+											COPYRIGHT <i class="fa fa-copyright"></i> Goose International ALL RLGHTS RESERVED
+										</div>
+									</div>
+								</div>
+													</div>
+					</div>
+				</footer>
+					</div><!-- .at-wrapper -->
+	</div><!-- .wrapper -->
+</div><!-- .at-html -->
+
+<div class="at-go hidden">
+	<div id="go-btn" class="go-btn">
+		<span class="go-top cursor"><i class="fa fa-chevron-up"></i></span>
+		<span class="go-bottom cursor"><i class="fa fa-chevron-down"></i></span>
+	</div>
+</div>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="https://gooseedu.com/thema/Fivesense-basic/assets/js/respond.js"></script>
+<![endif]-->
+
+<!-- JavaScript -->
+<script>
+var sub_show = "slide";
+var sub_hide = "";
+var menu_startAt = "0";
+var menu_sub = "";
+var menu_subAt = "0";
+</script>
+<script type="text/javascript" src="https://gooseedu.com/thema/Fivesense-basic/assets/bs3/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://gooseedu.com/thema/Fivesense-basic/assets/js/sly.min.js"></script>
+<script type="text/javascript" src="https://gooseedu.com/thema/Fivesense-basic/assets/js/custom.js"></script>
+<script type="text/javascript" src="https://gooseedu.com/thema/Fivesense-basic/assets/js/sticky.js"></script>
+
+<script>
+var sidebar_url = "https://gooseedu.com/thema/Fivesense-basic/widget/miso-sidebar";
+var sidebar_time = "30";
+</script>
+<script src="https://gooseedu.com/thema/Fivesense-basic/widget/miso-sidebar/sidebar.js"></script>
+
+<!-- sidebar Box -->
+<aside id="sidebar-box" class="ko">
+
+	<!-- Head Line -->
+	<div class="sidebar-head bg-navy"></div>
+
+	<!-- sidebar Wing -->
+	<div class="sidebar-wing">
+		<!-- sidebar Wing Close -->
+		<div class="sidebar-wing-close sidebar-close en" title="닫기">
+			<i class="fa fa-times"></i>
+		</div>
+
+		<!-- sidebar Wing Icon -->
+		<div class="sidebar-wing-icon en">
+			<a href="javascript:;" onclick="sidebar_open('sidebar-menu');" title="메뉴">
+				<span class="sidebar-wing-btn bg-navy">
+					<i class="fa fa-bars"></i>
+				</span>
+			</a>
+			<a href="javascript:;" onclick="sidebar_open('sidebar-user');" title="유저">
+				<span class="sidebar-wing-btn bg-navy">
+					<i class="fa fa-user"></i>
+				</span>
+			</a>
+		<!-- 					<a href="javascript:;" onclick="sidebar_open('sidebar-cart');" title="쇼핑">
+					<span class="sidebar-wing-btn bg-navy">
+						<i class="fa fa-shopping-bag"></i>
+											</span>
+				</a>
+						<a href="javascript:;" onclick="sidebar_open('sidebar-search');" title="검색">
+				<span class="sidebar-wing-btn bg-navy">
+					<i class="fa fa-search"></i>
+				</span>
+			</a> -->
+			<a href="javascript:;" class="sidebar-scrollup" title="상단">
+				<span class="sidebar-wing-btn bg-navy">
+					<i class="fa fa-arrow-up"></i>
+				</span>
+			</a>
+		</div>
+	</div>
+
+	<!-- sidebar Content -->
+	<div id="sidebar-content" class="sidebar-content">
+
+		<div class="h30"></div>
+
+		<!-- Common -->
+		<div class="sidebar-common">
+
+			<!-- Login -->
+			<div class="btn-group btn-group-justified" role="group">
+									<a href="#" onclick="sidebar_open('sidebar-user'); return false;" class="btn btn-navy btn-sm">로그인</a>
+					<a href="https://gooseedu.com/bbs/register.php" class="btn btn-navy btn-sm">회원가입</a>
+					<a href="https://gooseedu.com/bbs/password_lost.php" class="win_password_lost btn btn-navy btn-sm">정보찾기</a>
+							</div>
+
+			<div class="h15"></div>
+
+		</div>
+
+		<!-- Menu -->
+		<div id="sidebar-menu" class="sidebar-item">
+			
+
+<div class="sidebar-menu panel-group" id="sidebar_menu" role="tablist" aria-multiselectable="true">
+						<div class="panel">
+				<div class="ca-head" role="tab" id="sidebar_menu_c1">
+					<a href="#sidebar_menu_s1" data-toggle="collapse" data-parent="#sidebar_menu" aria-expanded="true" aria-controls="sidebar_menu_s1" class="is-sub">
+						<span class="ca-href pull-right" onclick="sidebar_href('https://gooseedu.com/bbs/page.php?hid=m01_01');">&nbsp;</span>
+						구스유학											</a>
+				</div>
+				<div id="sidebar_menu_s1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sidebar_menu_c1">
+					<ul class="ca-sub">
+																	<li>
+							<a href="https://gooseedu.com/bbs/page.php?hid=m01_01">
+								구스유학소개															</a>
+						</li>
+																	<li>
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m01_02">
+								구스 꿀팁															</a>
+						</li>
+										</ul>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab" id="sidebar_menu_c2">
+					<a href="#sidebar_menu_s2" data-toggle="collapse" data-parent="#sidebar_menu" aria-expanded="true" aria-controls="sidebar_menu_s2" class="is-sub">
+						<span class="ca-href pull-right" onclick="sidebar_href('https://gooseedu.com/bbs/board.php?bo_table=m02_01');">&nbsp;</span>
+						네트워킹											</a>
+				</div>
+				<div id="sidebar_menu_s2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sidebar_menu_c2">
+					<ul class="ca-sub">
+																	<li>
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m02_01">
+								네트워킹															</a>
+						</li>
+										</ul>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab" id="sidebar_menu_c3">
+					<a href="#sidebar_menu_s3" data-toggle="collapse" data-parent="#sidebar_menu" aria-expanded="true" aria-controls="sidebar_menu_s3" class="is-sub">
+						<span class="ca-href pull-right" onclick="sidebar_href('https://gooseedu.com/bbs/board.php?bo_table=m03_01');">&nbsp;</span>
+						학교정보											</a>
+				</div>
+				<div id="sidebar_menu_s3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sidebar_menu_c3">
+					<ul class="ca-sub">
+																	<li>
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m03_01">
+								학교정보															</a>
+						</li>
+																	<li>
+							<a href="/bbs/write.php?bo_table=m03_02">
+								학교신청															</a>
+						</li>
+										</ul>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab" id="sidebar_menu_c4">
+					<a href="#sidebar_menu_s4" data-toggle="collapse" data-parent="#sidebar_menu" aria-expanded="true" aria-controls="sidebar_menu_s4" class="is-sub">
+						<span class="ca-href pull-right" onclick="sidebar_href('https://gooseedu.com/bbs/page.php?hid=m04_01');">&nbsp;</span>
+						유학 서비스											</a>
+				</div>
+				<div id="sidebar_menu_s4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sidebar_menu_c4">
+					<ul class="ca-sub">
+																	<li>
+							<a href="https://gooseedu.com/bbs/page.php?hid=m04_01">
+								홈스테이															</a>
+						</li>
+																	<li>
+							<a href="https://gooseedu.com/bbs/page.php?hid=m04_02">
+								공항라이드															</a>
+						</li>
+										</ul>
+				</div>
+			</div>
+								<div class="panel">
+				<div class="ca-head" role="tab" id="sidebar_menu_c5">
+					<a href="#sidebar_menu_s5" data-toggle="collapse" data-parent="#sidebar_menu" aria-expanded="true" aria-controls="sidebar_menu_s5" class="is-sub">
+						<span class="ca-href pull-right" onclick="sidebar_href('https://gooseedu.com/bbs/board.php?bo_table=m05_01');">&nbsp;</span>
+						고객센터											</a>
+				</div>
+				<div id="sidebar_menu_s5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sidebar_menu_c5">
+					<ul class="ca-sub">
+																	<li>
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m05_01">
+								공지사항															</a>
+						</li>
+																	<li>
+							<a href="https://gooseedu.com/bbs/board.php?bo_table=m05_02">
+								유학상담															</a>
+						</li>
+										</ul>
+				</div>
+			</div>
+			</div>
+		</div>
+
+		<!-- Search -->
+		<div id="sidebar-search" class="sidebar-item">
+			
+<!-- Search -->
+<div class="div-title-underline-thin en">
+	<b>SEARCH</b>
+</div>
+<div class="sidebar-search">
+	<form id="ctrlSearch" name="ctrlSearch" method="get" onsubmit="return sidebar_search(this);" role="form" class="form">
+		<div class="row">
+			<div class="col-xs-6">
+				<select name="url" class="form-control input-sm">
+					<option value="https://gooseedu.com/bbs/search.php">게시물</option>
+											<option value="https://gooseedu.com/shop/search.php">상품</option>
+						<option value="https://gooseedu.com/shop/itemuselist.php">후기</option>
+						<option value="https://gooseedu.com/shop/itemqalist.php">문의</option>
+										<option value="https://gooseedu.com/bbs/tag.php">태그</option>
+				</select>
+			</div>
+			<div class="col-xs-6">
+				<select name="sop" id="sop" class="form-control input-sm">
+					<option value="or">또는</option>
+					<option value="and">그리고</option>
+				</select>	
+			</div>
+		</div>
+		<div class="input-group input-group-sm" style="margin-top:8px;">
+			<input type="text" name="stx" class="form-control input-sm" value="" placeholder="검색어는 두글자 이상">
+			<span class="input-group-btn">
+				<button type="submit" class="btn btn-navy btn-sm"><i class="fa fa-search"></i></button>
+			</span>
+		</div>
+	</form>				
+</div>
+		</div>
+
+		<!-- User -->
+		<div id="sidebar-user" class="sidebar-item">
+			<div class="sidebar-login">
+	
+		<form id="sidebar_login_form" name="sidebar_login_form" method="post" action="https://gooseedu.com/bbs/login_check.php" autocomplete="off" role="form" class="form" onsubmit="return sidebar_login(this);">
+		<input type="hidden" name="url" value="%2F">
+			<div class="form-group">	
+				<div class="input-group">
+					<span class="input-group-addon"><i class="fa fa-user gray"></i></span>
+					<input type="text" name="mb_id" id="mb_id" class="form-control input-sm" placeholder="아이디" tabindex="91">
+				</div>
+			</div>
+			<div class="form-group">	
+				<div class="input-group">
+					<span class="input-group-addon"><i class="fa fa-lock gray"></i></span>
+					<input type="password" name="mb_password" id="mb_password" class="form-control input-sm" placeholder="비밀번호" tabindex="92">
+				</div>
+			</div>
+			<div class="form-group">
+				<button type="submit" class="btn btn-navy btn-block" tabindex="93">Login</button>    
+			</div>	
+
+			<label class="text-muted" style="letter-spacing:-1px;">
+				<input type="checkbox" name="auto_login" value="1" id="remember_me" class="remember-me" tabindex="94">
+				자동로그인 및 로그인 상태 유지
+			</label>
+		</form>
+
+		<div class="h10"></div>
+
+		
+		<!-- Member -->
+		<div class="div-title-underline-thin en">
+			<b>MEMBER</b>
+		</div>
+		<ul class="sidebar-list list-links">
+			<li><a href="https://gooseedu.com/bbs/register.php">회원가입</a></li>
+			<li><a href="https://gooseedu.com/bbs/password_lost.php" class="win_password_lost">아이디/비밀번호 찾기</a></li>
+		</ul>
+		
+	</div>
+
+<div class="h20"></div>
+
+<!-- Service -->
+<!-- <div class="div-title-underline-thin en">
+	<b>SERVICE</b>
+</div>
+
+<ul class="sidebar-list list-links">
+			<li><a href="https://gooseedu.com/shop/cart.php">장바구니</a></li>
+		<li><a href="https://gooseedu.com/shop/personalpay.php">개인결제</a></li>
+		<li><a href="https://gooseedu.com/shop/orderinquiry.php">주문 및 배송조회</a></li>
+		<li><a href="https://gooseedu.com/bbs/faq.php">자주하시는 질문(FAQ)</a></li>
+	<li><a href="https://gooseedu.com/bbs/qalist.php">1:1 문의</a></li>
+</ul>
+ -->		</div>
+
+		<!-- Response -->
+		<div id="sidebar-response" class="sidebar-item">
+			<div id="sidebar-response-list"></div>
+		</div>
+
+				<!-- Cart -->
+		<div id="sidebar-cart" class="sidebar-item">
+			<div id="sidebar-cart-list"></div>
+		</div>
+		
+		<div class="h30"></div>
+	</div>
+
+</aside>
+
+<div id="sidebar-box-mask" class="sidebar-close"></div>
+
+<!-- sidebar Button -->
+<!-- <aside id="sidebar-btn">
+	<ul>
+		<li>
+			<a href="javascript:;" onclick="sidebar_open('sidebar-menu');" title="메뉴">
+				<span class="sidebar-btn-box bg-navy">
+					<span class="sidebar-btn">
+						<i class="fa fa-bars"></i>
+					</span>
+				</span>
+			</a>
+		</li>
+		<li>
+			<a href="javascript:;" onclick="sidebar_open('sidebar-user');" title="유저">
+				<span class="sidebar-btn-box bg-navy">
+					<span class="sidebar-btn">
+						<i class="fa fa-user"></i>
+					</span>
+				</span>
+			</a>
+		</li>
+				<li>
+			<a href="javascript:;" onclick="sidebar_open('sidebar-cart');" title="쇼핑">
+				<span class="sidebar-btn-box bg-navy">
+					<span class="sidebar-btn">
+						<i class="fa fa-shopping-bag"></i>
+											</span>
+				</span>
+			</a>
+		</li>
+				<li>
+			<a href="javascript:;" class="sidebar-scrollup" title="상단">
+				<span class="sidebar-btn-box bg-navy">
+					<span class="sidebar-btn">
+						<i class="fa fa-arrow-up"></i>
+					</span>
+				</span>
+			</a>
+		</li>
+	</ul>
+</aside>
+ -->
+
+<!-- 빌더 1.7.22 / 5.2.9.8 / 5.2.9.8 -->
+<!-- ie6,7에서 사이드뷰가 게시판 목록에서 아래 사이드뷰에 가려지는 현상 수정 -->
+<!--[if lte IE 7]>
+<script>
+$(function() {
+    var $sv_use = $(".sv_use");
+    var count = $sv_use.length;
+
+    $sv_use.each(function() {
+        $(this).css("z-index", count);
+        $(this).css("position", "relative");
+        count = count - 1;
+    });
+});
+</script>
+<![endif]-->
+
+</body>
+</html>

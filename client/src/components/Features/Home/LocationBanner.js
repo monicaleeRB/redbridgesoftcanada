@@ -33,7 +33,7 @@ function LocationBanner() {
                 <div className="typography-line">
                     <h2 className="strong-title-white">Location</h2>
                 </div>
-                <Row>
+                <Row className="responsive-flex">
                     <Col className="content-center">
                         <div class="typography-line">
                             <img src={require("../../../assets/img/MapCanada.png")} style={{width: "105%"}}/>

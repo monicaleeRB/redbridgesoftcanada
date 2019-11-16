@@ -44,7 +44,7 @@ function LatestNewsBanner() {
                 </div>
                 <Row>
                     <Col xs="1"></Col>
-                    <Col xs="2">
+                    <Col xs="3">
                         <Dropdown
                         isOpen={dropdownOpen} toggle={toggle}
                         >
@@ -56,7 +56,7 @@ function LatestNewsBanner() {
                             </DropdownMenu>
                         </Dropdown>
                     </Col>
-                    <Col xs="8">
+                    <Col xs="7">
                         <InputGroup>
                             <Input placeholder="Search"/>
                             <InputGroupAddon addonType="append">
