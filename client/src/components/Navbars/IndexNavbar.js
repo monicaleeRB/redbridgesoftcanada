@@ -34,23 +34,25 @@ function IndexNavbar() {
   const toggleNavbarCollapse = () => {
     setNavbarCollapse(!navbarCollapse);
     document.documentElement.classList.toggle("nav-open");
+    (!navbarCollapse) ? setNavbarLinkColor("strong-title-darkGrey") : setNavbarLinkColor("strong-title-white");
   };
 
   useEffect(() => {
     const updateNavbarColor = () => {
-      if (
-        document.documentElement.scrollTop > 299 ||
-        document.body.scrollTop > 299
-      ) {
-        setNavbarColor("");
-        setNavbarLinkColor("strong-title-darkGrey");
-      } else if (
-        document.documentElement.scrollTop < 300 ||
-        document.body.scrollTop < 300
-      ) {
-        setNavbarColor("navbar-transparent");
-        setNavbarLinkColor("strong-title-white");
-      }
+        if (
+            document.documentElement.scrollTop > 299 ||
+            document.body.scrollTop > 299
+          ) {
+            setNavbarColor("");
+            setNavbarLinkColor("strong-title-darkGrey");
+          } else if (
+            document.documentElement.scrollTop < 300 ||
+            document.body.scrollTop < 300
+          ) {
+            setNavbarColor("navbar-transparent");
+            setNavbarLinkColor("strong-title-white")
+            (navbarCollapse) ? setNavbarLinkColor("strong-title-darkGrey") : setNavbarLinkColor("strong-title-white");
+          }
     };
 
     window.addEventListener("scroll", updateNavbarColor);

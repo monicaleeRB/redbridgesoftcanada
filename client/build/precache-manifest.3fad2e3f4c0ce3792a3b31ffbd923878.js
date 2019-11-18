@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5c801eee31d3b591710a",
+    "revision": "c484c490afd37a3b0240",
     "url": "/static/css/main.1c88bd00.chunk.css"
   },
   {
-    "revision": "5c801eee31d3b591710a",
-    "url": "/static/js/main.5c801eee.chunk.js"
+    "revision": "c484c490afd37a3b0240",
+    "url": "/static/js/main.c484c490.chunk.js"
   },
   {
     "revision": "fdfcfda2d9b1bf31db52",
@@ -28,16 +28,16 @@ self.__precacheManifest = [
     "url": "/static/media/EducationCover.838bf10e.png"
   },
   {
+    "revision": "6836b93bf1af0b571928d98458a68445",
+    "url": "/static/media/nucleo-icons.6836b93b.woff"
+  },
+  {
     "revision": "f32ed5ad3d76067b8e43be1a0bd1ba91",
     "url": "/static/media/nucleo-icons.f32ed5ad.eot"
   },
   {
     "revision": "5c78b4cf03771fd2287325c44f0d3cd9",
     "url": "/static/media/nucleo-icons.5c78b4cf.woff2"
-  },
-  {
-    "revision": "6836b93bf1af0b571928d98458a68445",
-    "url": "/static/media/nucleo-icons.6836b93b.woff"
   },
   {
     "revision": "48ac036da7c7923266266f63746fc5f1",
@@ -156,7 +156,7 @@ self.__precacheManifest = [
     "url": "/static/media/news_con.f8589618.png"
   },
   {
-    "revision": "89ea5c27ab0c4edb606c6c7234f76dea",
+    "revision": "963c2d01de26b677f4b92a9ecc9cb011",
     "url": "/index.html"
   }
 ];
