@@ -29,15 +29,13 @@ function RedbridgeCreativeGroup() {
         <div className="section background-grey">
             <Container>
                 <Row>
-                    <Col sm="5" className="content-center align-center">
+                    <Col className="content-center align-center">
                         <div class="typography-line">
                             <img src={require("../../../assets/img/RedbridgeCreativeGroup.png")} />
                         </div>
                     </Col>
                     <Col className="content-center">
-                        <div class="typography-line">
-                            <img src={require("../../../assets/img/RedbridgeGame.png")} />
-                        </div>
+                        <img src={require("../../../assets/img/RedbridgeGame.png")} />
                     </Col>
                     <Col className="content-center align-center">
                         <div class="typography-line-left">
